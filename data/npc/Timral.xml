@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alf, the traveler" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="129" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello traveler |PLAYERNAME|. Where do you want to {travel}?"/>
+        <parameter key="travel_destinations" value="shadow wood,927,924,6,0;aleda,1166,1171,6,0;seldia,1435,1396,5,0;selroth,1685,1254,6,0;fishing town,1155,830,7,0;hidden village,1435,870,7,0;desert,666,1155,6,0;afloat,1793,1344,7,0"/>
+    </parameters>
+</npc>

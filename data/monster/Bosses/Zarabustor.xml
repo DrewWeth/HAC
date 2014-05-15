@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zarabustor" nameDescription="zarabustor" race="blood" experience="8000" speed="265" manacost="0">
+  <health now="5100" max="5100"/>
+  <look type="130" head="0" body="77" legs="91" feet="115" addons="1" corpse="6080"/>
+  <targetchange interval="5000" chance="30"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-130"/>
+    <attack name="physical" interval="1000" chance="12" range="7" target="1" min="0" max="-250">
+      <attribute key="shootEffect" value="energyball"/>
+      <attribute key="areaEffect" value="energy"/>
+      </attack>
+    <attack name="manadrain" interval="2000" chance="16" range="7" min="" max="-250">
+    <attribute key="shootEffect" value="ice"/>
+    </attack>
+    <attack name="speed" interval="4000" chance="18" range="7" speedchange="-750" duration="40000">
+      <attribute key="shootEffect" value="smallice"/>
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+    <attack name="fire" interval="3000" chance="23" range="7" radius="3" target="1" min="0" max="-250">
+      <attribute key="shootEffect" value="burstarrow"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="firefield" interval="2000" chance="14" range="7" radius="2" target="1">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="energy" interval="3000" chance="15" length="8" spread="0" min="-130" max="-350">
+      <attribute key="areaEffect" value="bigclouds"/>
+    </attack>
+  </attacks>
+  <defenses armor="45" defense="40">
+    <defense name="healing" interval="1000" chance="15" min="200" max="400">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="2000" chance="10" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+    <element physicalPercent="-1"/>
+    <element holyPercent="-1"/>
+    <element earthPercent="90"/>
+  </elements>
+  <immunities>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity ice="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="5">
+    <summon name="warlock" interval="3000" chance="15" max="2"/>
+    <summon name="green djinn" interval="2000" chance="15" max="3"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Killing is a splendid diversion for my studies."/>
+    <voice sentence="Time to test my newest spells!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="80" chance="80000"/> --gold
+    <item id="2148" countmax="70" chance="70000"/> --gold
+    <item id="7368" chance="20000"/> --assassin star
+    <item id="7895" chance="6000"/> --lightning legs
+    <item id="2164" chance="8000"/> --might ring
+    <item id="2146" countmax="2" chance="12000"/> --small sapphire 
+    <item id="1987" chance="100000"> --bag
+        <inside>
+            <item id="2656" chance="12000"/> --Blue Robe
+            <item id="2466" chance="8000"/> --Golden Armor
+            <item id="2411" chance="16000"/> --poison dagger
+            <item id="2436" chance="6500"/> --Skull staff
+            <item id="8902" chance="8000"/> --SB of mind control
+            <item id="2123" chance="5000"/> --ring of the sky
+        </inside>
+    </item>
+  </loot>
+</monster>

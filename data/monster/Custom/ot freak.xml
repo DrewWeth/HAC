@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="OT Freak" nameDescription="Ot Freak" race="blood" experience="4000" speed="600" manacost="490">
+  <health now="2500" max="2500"/>
+  <look type="100" head="20" body="30" legs="40" feet="50" corpse="3028"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-14" max="-1000"/>
+    <attack name="Sudden death" interval="5000" min="-140" max="-7000"/>
+    <attack name="fire" interval="8000" min="-14" max="-1000"/>
+    <attack name="energy" interval="9000" min="-14" max="-1000"/>
+    <attack name="melee" interval="2000" min="-410" max="-1090"/>
+    <attack name="fire field" interval="7500" chance="75"/>
+    <attack name="great energy beam" interval="7000" chance="60" min="-600" max="-7000"/>
+    <attack name="great fireball" interval="3000" chance="50" min="-300" max="-7500"/>
+   </attacks>
+ <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Im Playing Ots for 29 years!"/>
+    <voice sentence="Im just waste my time with you!"/>
+  </voices>
+  <loot>
+    <item id="2160" countmax="10" chance1="100000" chancemax="0"/> --Crystal Coins
+    <item id="2475" chance="25000"/> --Warrior Helmet
+    <item id="2497" chance="1955"/> --Crusader Helmet
+    <item id="2503" chance="3444"/> --Dwarven Armor
+    <item id="8923" chance="5333"/> --Ranger legs
+    <item id="2506" chance="1666"/> --Dragon Scale Helmet
+    <item id="2666" countmax="100" chance1="33333" chancemax="0"/> --Meat
+    <item id="2000" chance="100000"> --Backpack
+      <inside>
+        <item id="2496" chance="2777"/> --Dragon Scale Legs
+        <item id="2169" chance="2055"/> --Time Ring
+        <item id="6132" chance="2055"/> --Soft Boots
+      </inside>
+    </item>
+  </loot>
+</monster>

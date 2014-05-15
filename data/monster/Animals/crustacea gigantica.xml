@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crustacea Gigantica" nameDescription="Crustacea Gigantica" race="blood" experience="1800" speed="260" manacost="0">
+	<health now="1600" max="1600"/>
+	<look type="248" corpse="7091"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="40"/>
+		<attack name="ice" interval="2000" chance="18" length="8" spread="3" min="-0" max="-200">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="18" range="3" target="1" min="-0" max="-160">
+			<attribute key="shootEffect" value="ice"/>
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="22" defense="35">
+		<defense name="healing" interval="2000" chance="18" min="79" max="244">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity ice="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="2000" chance="10">
+		<voice sentence="Chrchrchr" yell="0"/>
+		<voice sentence="Klonklonk!" yell="0"/>
+		<voice sentence="Chrrrrr" yell="0"/>
+	</voices>
+	<loot>
+    <item id="2148" countmax="125" chance="33575" /><!-- gold coin -->
+	<item id="7589" chance="5325" /><!-- strong mana potion -->
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

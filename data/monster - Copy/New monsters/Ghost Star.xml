@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghost Star" nameDescription="a Ghost Star" race="energy" experience="1000" speed="400" manacost="0">
+<health now="300000000" max="300000000"/>
+<look typeex="8047" corpse="7343"/>
+<targetchange interval="5000" chance="6"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="0"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="250"/>
+</flags>
+<attacks>
+<attack name="melee" interval="1" min="-400000000" max="-400000000"/>
+</attacks>
+<defenses armor="22" defense="35">
+<defense name="healing" interval="1" chance="25" min="57" max="1200">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+</defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+<voices interval="5000" chance="10">
+<voice sentence="-.-" yell="1"/>
+<voice sentence="Leave of my home" yell="1"/>
+<voice sentence="Yalahar My City" yell="1"/>
+<voice sentence="Lavanos Is My Brother" yell="1"/>
+</voices>
+<loot>
+    <item id="2160" chance="100000" countmax="100"/>
+</loot>
+</monster>

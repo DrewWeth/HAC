@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hammer" nameDescription="A Hammer" race="energy" experience="70000" speed="1000" manacost="420">
+  <health now="400000" max="400000"/>
+  <look type="285" corpse="9775"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="45"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1" min="-410" max="-1090"/>
+  </attacks>
+  <defenses armor="56" defense="60">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Demon" interval="1000" chance="10"/>
+  </summons>
+  <voices interval="2000" chance="5">
+    <voice sentence="PRAISED BE MY MASTERS, THE RUTHLESS SEVEN!"/>
+    <voice sentence="MUAHAHAHAHA!"/>
+  </voices>
+<loot>
+    <item id="2160" chance="100000" countmax="100"/>
+</loot>
+</monster>

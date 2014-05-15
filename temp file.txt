@@ -1,0 +1,13 @@
+npcs
+fix spells
+exp rates
+add houses
+paypal
+items fix. Pheonix armor/enhanced armor.
+quests
+
+
+1223 1081 7
+
+1194 1041 8
+

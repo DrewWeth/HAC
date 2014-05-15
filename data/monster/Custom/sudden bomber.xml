@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sudden Bomber" nameDescription="Sudden Bomber" race="blood" experience="500" speed="500" manacost="490">
+  <health now="1100" max="1100"/>
+  <look type="145" head="88" body="88" legs="88" feet="88" corpse="2317"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+
+    <attack name="Sudden death" interval="250" range="5" min="-300" max="-450"/>
+   </attacks>
+	<defenses armor="30" defense="20">
+		<defense name="healing" interval="1200" min="400" max="500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+ <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Take That,Noob!"/>
+    <voice sentence="Feel the power of my runes!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

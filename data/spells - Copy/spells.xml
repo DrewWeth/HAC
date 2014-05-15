@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+
+	<!-- Healing spells -->
+	<instant name="life Healing" words="life heal" lvl="100" mana="0" aggressive="0" selftarget="1" exhaustion="500" needlearn="0" event="script" value="healing spells/life heal.lua">
+		</instant>
+	<instant name="Mana Healing" words="mana heal" lvl="100" mana="0" aggressive="0" selftarget="1" exhaustion="500" needlearn="0" event="script" value="healing spells/mana heal.lua">
+		</instant>
+	<instant name="super life Healing" words="super life heal" lvl="500000" mana="0" aggressive="0" selftarget="1" exhaustion="500" needlearn="0" event="script" value="healing spells/super life heal.lua">
+		</instant>
+	<instant name="super Mana Healing" words="super mana heal" lvl="500000" mana="0" aggressive="0" selftarget="1" exhaustion="500" needlearn="0" event="script" value="healing spells/super mana heal.lua">
+		</instant>
+	
+	<!-- Rebirth spells -->
+	<instant name="Energy hur" words="energy hur" lvl="2" mana="1" prem="0" exhaustion="3000" needlearn="1" script="energy hur.lua">
+		</instant>
+	<instant name="lux hur" words="lux hur" lvl="2" mana="1" prem="0" exhaustion="3000" needlearn="1" script="lux hur.lua">
+		</instant>
+	
+	<!-- support -->
+	<instant name="Movement speed" words="Haste" lvl="1" mana="1000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="support/haste.lua">  <!-- 1 -->
+		</instant>
+	<instant name="Mana Shield" words="Blockinge" lvl="1" mana="50" aggressive="0" selftarget="1" exhaustion="3000" needlearn="0" script="support/magic shield.lua">
+			<vocation name="sorcerer" />
+			<vocation name="paladin" />
+			<vocation name="master sorcerer" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer sorcerer" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="Great Light" words="Light" lvl="1" mana="60" aggressive="0" selftarget="1" exhaustion="3000" needlearn="0" script="support/light.lua">
+		</instant>
+	<!-- Runes -->
+	<rune name="Magic Wall" id="2293" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1200" aggressive="1" blocktype="all" script="runes/magic wall rune.lua"/>
+	<rune name="Paralyze" id="2278" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1200" needtarget="1" blocktype="solid" script="runes/paralyze rune.lua"/>
+	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1200" needtarget="1" blocktype="solid" script="runes/sudden death.lua"/>
+	<rune name="Firebomb" id="2305" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1200" blocktype="solid" script="runes/fire bomb.lua"/>
+	<rune name="Explosion" id="2313" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1200" blocktype="solid" script="runes/explosion.lua"/>
+	<rune name="Ultimate Healing Rune" id="2273" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="2000" aggressive="0" needtarget="1" blocktype="solid" script="runes/ultimate healing rune.lua"/>
+	<rune name="Destroy Field" id="2261" allowfaruse="1" charges="1" lvl="1" maglv="1" exhaustion="1000" aggressive="0" range="10" script="runes/destroy field rune.lua"/>
+	<rune name="Mana Rune" id="2276" allowfaruse="1" charges="1" lvl="1" exhaustion="1" maglv="1" aggressive="0" needtarget="1" blocktype="solid" script="runes/manarune.lua"/>
+	<rune name="Mage SD Rune" id="2263" allowfaruse="1" charges="0" lvl="150" maglv="1" exhaustion="0" needtarget="1" blocktype="solid" script="mage sd rune.lua"/>
+    <rune name="Infinite X-Great Mana Rune" id="2307" allowfaruse="1" charges="0" lvl="1000" exhaustion="1" maglv="1" aggressive="0" needtarget="1" blocktype="solid" script="manarune1.lua"/>
+    <rune name="Mage SD Rune1" id="2264" allowfaruse="1" charges="0" lvl="200" maglv="1" exhaustion="0" needtarget="1" blocktype="solid" script="mage sd rune1.lua"/>
+	
+	
+	<!-- New -->
+	<rune name="Donation SD" id="2284" allowfaruse="1" charges="0" lvl="100" maglv="0" exhaustion="150" needtarget="1" blocktype="solid" event="script" value="Donation SD.lua"/>
+    <rune name="Donation UH" id="2296" allowfaruse="1" charges="0" lvl="100" maglv="0" exhaustion="1" aggressive="0" needtarget="1" blocktype="solid" script="Donation UH.lua"/>
+    <rune name="Donation manarune" id="2275" allowfaruse="1" charges="0" lvl="100" maglv="0" exhaustion="1" aggressive="0" needtarget="1" blocktype="solid" script="Donation manarune.lua"/>
+	<rune name="Danger rune" id="10759" allowfaruse="1" charges="0" lvl="100" maglv="0" exhaustion="1" aggressive="0" needtarget="1" blocktype="solid" script="Danger pot.lua"/>
+	
+	<!-- Attack spells -->
+		<instant name="spear throw" words="spear throw" lvl="1000" mana="1000" casterTargetOrDirection="1" exhaustion="3000" needlearn="0" event="script" value="spear throw.lua">  <!-- 1000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="energy throw" words="energy throw" lvl="1000" mana="1000" casterTargetOrDirection="1" exhaustion="3000" needlearn="0" event="script" value="energy throw.lua">  <!-- 1000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="exori fire" words="exori fire" lvl="1000" mana="1000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="exori fire.lua"> <!-- 1000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="star throw" words="star throw" lvl="100000" mana="5000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="star throw.lua"> <!-- 100000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="energy bomb" words="energy bomb" lvl="100000" mana="5000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="energy bomb.lua"> <!-- 100000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="roling axe" words="roling axe" lvl="100000" mana="5000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="roling axe.lua"> <!-- 100000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>	
+	<instant name="Rocketos" words="Rocketos" lvl="200000" mana="6000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="Rocketos.lua"> <!-- 200000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="crazy tenique" words="crazy tenique" lvl="200000" mana="6000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="crazy tenique.lua"> <!-- 200000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="flying axes" words="flying axes" lvl="200000" mana="6000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="flying axes.lua"> <!-- 200000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="exori stone" words="exori stone" lvl="300000" mana="7000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="exori stone.lua"> <!-- 300000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="exevo posiones" words="exevo posiones" lvl="300000" mana="7000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="exevo posiones.lua"> <!-- 300000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="fire arrow" words="fire arrow" lvl="300000" mana="7000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="fire arrow.lua">   <!-- 300000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="fury strike" words="fury strike" lvl="400000" mana="8000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="fury strike.lua"> <!-- 400000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="ice age" words="ice age" lvl="400000" mana="8000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="ice age.lua"> <!-- 400000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="yellow energy" words="yellow energy" lvl="400000" mana="8000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="yellow energy.lua"> <!-- 40000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="Nakamora" words="Nakamora" lvl="500000" mana="9000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="Nakamora.lua"> <!-- 500000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="fire roulette" words="fire roulette" lvl="500000" mana="9000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="fire roulette.lua"> <!-- 500000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="flying skulls" words="flying skulls" lvl="500000" mana="9000" casterTargetOrDirection="1" exhaustion="3000" needlearn="0" event="script" value="flying skulls.lua"> <!-- 500000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="Black axe" words="Black axe" lvl="550000" mana="10000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="Black axe.lua"> <!-- 550000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="Magic bats" words="Magic bats" lvl="550000" mana="10000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="Magic bats.lua"> <!-- 550000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="gangnam style" words="gangnam style" lvl="550000" mana="10000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="gangnam style.lua"> <!-- 550000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="poison clubs" words="poison clubs" lvl="600000" mana="15000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="poison clubs.lua"> <!-- 600000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="grandpaps balls" words="grandpaps balls" lvl="600000" mana="15000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="grandpaps balls.lua"> <!-- 600000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="Green lantern" words="Green lantern" lvl="600000" mana="15000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="Green lantern.lua"> <!-- 600000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="love strike" words="love strike" lvl="650000" mana="20000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="love strike.lua"> <!-- 650000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="bleeding stars" words="bleeding stars" lvl="650000" mana="20000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="bleeding stars.lua"> <!-- 650000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="lux strike" words="lux strike" lvl="650000" mana="20000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="lux strike.lua"> <!-- 650000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+	<instant name="final strike" words="final strike" lvl="700000" mana="25000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="final strike.lua"> <!-- 700000 -->
+			<vocation name="knight" />
+			<vocation name="elite knight" />
+			<vocation name="slayer knight" />
+		</instant>
+	<instant name="final throw" words="final throw" lvl="700000" mana="25000" casterTargetOrDirection="1" exhaustion="3000" needlearn="0" event="script" value="final throw.lua"> <!-- 700000 -->
+			<vocation name="paladin" />
+			<vocation name="royal paladin" />
+			<vocation name="slayer paladin" />
+		</instant>
+	<instant name="final cake" words="final cake" lvl="700000" mana="25000" selftarget="1" exhaustion="3000" needlearn="0" event="script" value="final cake.lua"> <!-- 700000 -->
+			<vocation name="sorcerer" />
+			<vocation name="master sorcerer" />
+			<vocation name="slayer sorcerer" />
+		</instant>
+</spells>

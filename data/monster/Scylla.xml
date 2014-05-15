@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scylla" nameDescription="a scylla" race="blood" experience="6970" speed="400" manacost="390">
+	<health now="60500" max="60500"/>
+	<look type="121" head="0" body="0" legs="0" feet="0" corpse="6048"/>
+	<targetchange interval="2000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="85"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="300"/>
+</flags>
+<attacks>
+
+	<attack name="melee" interval="2000" min="0" max="-200"/>
+
+	<attack name="earth" interval="1000" chance="15" length="9" spread="3" min="-600" max="-700">
+	<attribute key="areaEffect" value="bigplants"/>
+	</attack>
+
+	<attack name="ice" interval="1500" chance="33" length="9" spread="9" min="-500" max="-1300">
+	<attribute key="areaEffect" value="iceattack"/>
+	</attack>
+
+	<attack name="earth" interval="1000" chance="29" length="9" spread="5" min="-700" max="-1100">
+	<attribute key="areaEffect" value="bigplants"/>
+	</attack>
+
+	<attack name="melee" interval="2000" chance="66" range="7" radius="4" target="1" min="-0" max="-1000">
+			                <attribute key="shootEffect" value="poison"/>
+	
+        <attribute key="areaEffect" value="poison"/>
+		               
+        </attack>
+
+
+	<attack name="fire" interval="3000" chance="22" range="7" target="1" min="-71" max="-753">
+	<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="fireattack"/>
+        </attack>
+
+</attacks>
+  <defenses armor="16" defense="20">
+    <defense name="healing" interval="2000" chance="100" min="0" max="1500">
+      <attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	</defenses>
+
+	<immunities>
+		<immunity drown="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+ <summons maxSummons="1">
+    <summon name="hydra" interval="2000" chance="100"/>
+  </summons>
+
+	<voices interval="3000" chance="20">
+		<voice sentence="CHHHRRRR"/>
+		<voice sentence="HISSSS"/>
+		<voice sentence="ANIIII"/>
+	</voices>
+	<elements>
+		<element icePercent="-10"/>
+		<element firePercent="-5"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="-15"/>
+		<element deathPercent="10"/>
+	</elements>
+  <loot>
+    <item id="2148" countmax="60" chance="70000"/>	-- gold coin
+    <item id="2148" countmax="100" chance="100000"/>	-- gold coin
+    <item id="2146" countmax="1" chance="3000"/>	-- small saphire
+    <item id="2666" countmax="4" chance="40000"/>	-- meat
+    <item id="2148" countmax="25" chance="100000"/><!-- gold coin -->
+		
+    <item id="2671" countmax="3" chance="60000"/><!-- ham -->
+		
+    <item id="2498" chance="200"/><!-- royal helmet -->
+		
+    <item id="2195" chance="500"/><!-- boots of haste -->
+	
+      <item id="9928" chance="1500"/>			-- Lunar Staff	
+    <item id="2475" chance="1000"/><!-- warrior helmet -->
+		
+    <item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		
+    <item id="2146" countmax="1" chance="5000"/><!-- small sapphire -->
+
+    <item id="2214" chance="10000"/>			-- ring of healing
+    <item id="7391" chance="400"/>			-- Thaian Sword
+    <item id="2195" chance="1800"/><!-- boots of haste -->
+	
+   <item id="1987" chance="100000"> --Bag
+    <inside>
+      <item id="2148" countmax="74" chance="40000"/>	-- gold coin
+      <item id="2672" countmax="3" chance="20000"/>	-- dragon ham
+      <item id="7888" chance="3100"/>	        -- Glacier amulet
+      <item id="8887" chance="2492"/>			-- dsm
+      <item id="7424" chance="2600"/>			-- Lunar Staff
+
+      <item id="2536" chance="4400"/><!-- medusa shield -->
+
+      <item id="2214" chance="1200"/><!-- ring of healing -->
+								
+      <item id="2177" chance="600"/><!-- life crystal -->
+				
+      <item id="2476" chance="1000"/><!-- knight armor -->
+				
+      <item id="4850" chance="1200"/><!-- hydra egg -->
+				
+      <item id="2149" countmax="3" chance="10000"/><!-- small emerald -->
+							
+      <item id="2536" chance="555"/><!-- medusa shield -->
+				
+      <item id="2168" chance="2500"/><!-- life ring -->
+				
+      <item id="2197" chance="1000"/><!-- stone skin amulet -->
+
+    </inside>
+  </item>
+</loot>
+</monster>
+

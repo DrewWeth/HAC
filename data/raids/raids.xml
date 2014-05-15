@@ -1,0 +1,5 @@
+<raids>
+<!-- Raids: 
+<raid name="Mozala" file="Mozala.xml" chance="10" interval2="60" margin="0" /> Each 60 minutes there is a 10% chance that the raid is executed... />
+<raid name="Morde" file="Morde.xml" chance="10" interval2="60" margin="0" /> Each 60 minutes there is a 10% chance that the raid is executed... />-->
+</raids>

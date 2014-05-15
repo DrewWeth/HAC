@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/forgottenserver/!svn/ver/2915/trunk/data/spells/scripts/healing
+END
+light healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/light%20healing.lua
+END
+antidote rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/forgottenserver/!svn/ver/2915/trunk/data/spells/scripts/healing/antidote%20rune.lua
+END
+heal friend.lua
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/heal%20friend.lua
+END
+wound cleasing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/wound%20cleasing.lua
+END
+divine healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/divine%20healing.lua
+END
+ultimate healing rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/ultimate%20healing%20rune.lua
+END
+antidote.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/private/forgottenserver/!svn/ver/2915/trunk/data/spells/scripts/healing/antidote.lua
+END
+intense healing rune.lua
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/intense%20healing%20rune.lua
+END
+mass healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/mass%20healing.lua
+END
+ultimate healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/ultimate%20healing.lua
+END
+intense healing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/private/forgottenserver/!svn/ver/2746/trunk/data/spells/scripts/healing/intense%20healing.lua
+END

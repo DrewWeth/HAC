@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rebirth king" script="rebirth.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look typeex="1449"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to {reborn}?!"/>
+		<parameter key="message_farewell" value="Cya later!"/>
+	</parameters>
+</npc>

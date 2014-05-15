@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elemental" nameDescription="an elemental" race="fire" experience="1020" speed="200" manacost="690">
+	<health now="280" max="280"/>
+	<look type="49" corpse="1492"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+
+
+
+<attacks>
+		
+<attack name="melee" interval="2000" skill="30" attack="50"/>
+		
+<attack name="physical" interval="2000" chance="50" range="7" radius="1" target="1" min="-" max="-200">
+			
+<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosionarea"/>
+	
+</attack>
+
+<attack name="fire" interval="5000" chance="30" range="7" radius="4" target="1" min="-130" max="-300">
+			
+<attribute key="shootEffect" value="fire"/>
+			
+<attribute key="areaEffect" value="firearea"/>
+
+</attack>
+
+
+	<attack name="firefield" interval="4000" chance="34" range="7" radius="1" target="1">
+			
+	<attribute key="shootEffect" value="fire"/>
+		
+
+
+</attack>
+	
+</attacks>
+	
+
+
+<defenses armor="30" defense="30">
+		<defense name="healing" interval="1000" chance="25" min="100" max="195">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="outfit" interval="1500" chance="40" monster="Energy Overlord" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="outfit" interval="1500" chance="40" monster="Fire Overlord" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="outfit" interval="1500" chance="40" monster="Earth Overlord" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="outfit" interval="1500" chance="40" monster="Ice Overlord" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+</defenses>	
+<elements>
+		
+<element firePercent="100"/>
+		
+<element deathPercent="100"/>
+		
+<element icePercent="100"/>
+	
+<element poisonPercent="100"/>
+	
+<element holyPercent="100"/>
+ 
+<element energyPercent="100"/>
+
+
+
+
+ </elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

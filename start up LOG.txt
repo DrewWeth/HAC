@@ -1,0 +1,707 @@
+[28/05/2013 19:43:07] Maxwar Console 1.5 by Chavoz, version 1.5 (Zatacka)
+[28/05/2013 19:43:07] Compiled with GNU C++ version 3.4.5 (mingw special) at Aug  5 2012, 03:20:11.
+[28/05/2013 19:43:07] A server developed by Zatacka.
+[28/05/2013 19:43:07] >> Loading config (config.lua)
+[28/05/2013 19:43:07] > Using SHA1 encryption
+[28/05/2013 19:43:07] >> Checking software version... outdated, please consider updating!
+[28/05/2013 19:43:08] > Current version information - version: 1.5, patch: 1, build: 3429, timestamp: 1261647210.
+[28/05/2013 19:43:08] > Latest version information - version: 0.3.6, patch: 0, build: 3293, timestamp: 1260652199.
+[28/05/2013 19:43:08] >> Fetching blacklist
+[28/05/2013 19:43:08] >> Loading RSA key
+[28/05/2013 19:43:08] >> Starting SQL connection
+[28/05/2013 19:43:08] >> Running Database Manager
+[28/05/2013 19:43:08] > Optimizing table: znote_visitors_details... [success]
+[28/05/2013 19:43:08] >> Loading items
+[28/05/2013 19:43:09] >> Loading groups
+[28/05/2013 19:43:09] >> Loading vocations
+[28/05/2013 19:43:09] >> Loading script systems
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/custom/polymorph.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] attempt to index a number value
+[28/05/2013 19:43:09] [Warning - Event::loadScript] Cannot load script (data/spells/scripts/custom/polymorph.lua)
+
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/swift foot.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaCreateConditionObject) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/swift foot.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetConditionParam) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/swift foot.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetCombatCondition) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/sharpshooter.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaCreateConditionObject) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/sharpshooter.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetConditionParam) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/sharpshooter.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetCombatCondition) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaCreateConditionObject) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaCreateConditionObject) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetConditionParam) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetConditionParam) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetCombatCondition) Condition not found
+
+[28/05/2013 19:43:09] [Error - Spell Interface] 
+[28/05/2013 19:43:09] data/spells/scripts/support/protector.lua
+[28/05/2013 19:43:09] Description: 
+[28/05/2013 19:43:09] (luaSetCombatCondition) Condition not found
+[28/05/2013 19:43:09] [Warning - InstantSpell::loadFunction] Function "editHouseGuest" does not exist.
+[28/05/2013 19:43:09] [Warning - InstantSpell::loadFunction] Function "editHouseSubOwner" does not exist.
+[28/05/2013 19:43:09] [Warning - InstantSpell::loadFunction] Function "houseKick" does not exist.
+[28/05/2013 19:43:09] [Warning - InstantSpell::loadFunction] Function "editHouseDoor" does not exist.
+[28/05/2013 19:43:09] >> Loading chat channels
+[28/05/2013 19:43:09] >> Loading outfits
+[28/05/2013 19:43:09] >> Loading experience stages
+[28/05/2013 19:43:09] >> Loading monsters
+[28/05/2013 19:43:10] >> Loading mods...
+[28/05/2013 19:43:10] > Loading antibot.xml...[Warning - TalkAction::configureEvent] Duplicate registered talkaction with words: !afk
+[28/05/2013 19:43:10]  done.
+[28/05/2013 19:43:10] > Loading Berserker Mode.xml... done.
+[28/05/2013 19:43:10] > Loading buypremium_command.xml... done.
+[28/05/2013 19:43:10] > Loading Casino.xml... done.
+[28/05/2013 19:43:10] > Loading changender_command.xml... done.
+[28/05/2013 19:43:10] > Loading highscorebook.xml... done.
+[28/05/2013 19:43:10] > Loading Loot Ring.xml... done.
+[28/05/2013 19:43:10] > Loading Lottery System.xml... done.
+[28/05/2013 19:43:10] > 8 mods were loaded.
+[28/05/2013 19:43:10] >> Loading map and spawns...
+[28/05/2013 19:43:10] > Map size: 2606x2048.
+[28/05/2013 19:43:10] > Map descriptions: 
+[28/05/2013 19:43:10] "Saved with Remere's Map Editor 2.2"
+[28/05/2013 19:43:11] "Version 2 made by Artii"
+[28/05/2013 19:43:14] Duplicate uniqueId 2087
+[28/05/2013 19:43:14] Duplicate uniqueId 2520
+[28/05/2013 19:43:16] > Map loading time: 6.11 seconds.
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/The Forgotten King.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/The Forgotten King.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/The Forgotten King.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/The Forgotten King.xml"
+
+
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Sniper"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Demon (Goblin)"
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Sniper"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Sniper"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Sniper"
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Master of Monsters.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/Master of Monsters.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Master of Monsters.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/Master of Monsters.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:16] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:16] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:16] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/The Forgotten King.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/The Forgotten King.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Master of Monsters.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Master of Monsters.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Master of Monsters.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Master of Monsters.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:17] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/The Forgotten King.xml).
+[28/05/2013 19:43:17] Info: failed to load external entity "data/npc/The Forgotten King.xml"
+
+
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:17] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Captain Jon.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Captain Jon.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Edmund.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Edmund.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Xavier.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Xavier.xml"
+
+
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Minotaur Scout"
+[28/05/2013 19:43:18] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:18] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:18] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:19] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/General Yol.xml).
+[28/05/2013 19:43:19] Info: failed to load external entity "data/npc/General Yol.xml"
+
+
+[28/05/2013 19:43:19] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Xavier.xml).
+[28/05/2013 19:43:19] Info: failed to load external entity "data/npc/Xavier.xml"
+
+
+[28/05/2013 19:43:19] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Edmund.xml).
+[28/05/2013 19:43:19] Info: failed to load external entity "data/npc/Edmund.xml"
+
+
+[28/05/2013 19:43:19] [Warning - Npc::loadFromXml] Cannot load npc file (data/npc/Esmerelda The Traveling Gypsie.xml).
+[28/05/2013 19:43:19] Info: failed to load external entity "data/npc/Esmerelda The Traveling Gypsie.xml"
+
+
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:19] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Lizard Abomination"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Draken Abomination"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Draken Abomination"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Brimstone Bug"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:20] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Target Dummy"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Abomination"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Abomination"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Spellweaver"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Abomination"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Elite"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Draken Spellweaver"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Zarabustor"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:21] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Eternal Guardian"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Legionnaire"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard High Guard"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Dragon Priest"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Ghastly Dragon"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Souleater"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:22] [Spawn::addMonster] Cannot find "Lizard Chosen"
+[28/05/2013 19:43:22] > Data parsing time: 6.335 seconds.
+[28/05/2013 19:43:24] > Houses synchronization time: 1.259 seconds.
+[28/05/2013 19:43:24] > Content unserialization time: 0.377 seconds.
+[28/05/2013 19:43:24] >> Checking world type... PvP
+[28/05/2013 19:43:24] >> Initializing game state modules and registering services...
+
+[28/05/2013 19:43:24] [Error - GlobalEvent Interface] 
+[28/05/2013 19:43:24] data/globalevents/scripts/zombie/onstartup.lua:onStartup
+[28/05/2013 19:43:24] Description: 
+[28/05/2013 19:43:24] (luaDoCreateItem) Tile not found
+[28/05/2013 19:43:24] > Global address: tibiagame.redirectme.net
+[28/05/2013 19:43:25] > Local ports: 7171	7172	
+[28/05/2013 19:43:25] >> All modules were loaded, server is starting up...
+[28/05/2013 19:43:25] >> Middle Ages server Online!

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fucker" nameDescription="A Fucker pet" race="energy" experience="0" speed="5000" manacost="0">
+  <health now="1000000000" max="1000000000"/>
+  <look type="320" corpse="7349"/>
+  <targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="7"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="0"/>
+	<flag skull="black"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1" min="-10000000" max="-10000000"/>
+    <attack name="death" interval="1" chance="100" range="7" radius="4" target="4" min="-10000000" max="-10000000">
+	  <attribute key="shootEffect" value="explosion"/>
+    </attack>
+  
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1" chance="100" min="100000000" max="100000000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+  </defenses>
+  </attacks>
+  <defenses armor="25" defense="25">
+
+  </defenses>
+  <elements>
+		<element deathPercent="-99"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+</monster>

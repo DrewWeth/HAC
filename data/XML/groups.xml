@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+	<group id="1" name="Player"/>
+	<group id="2" name="Tutor" flags="10170989650439" customFlags="58918914" access="2" violationReasons="10" nameViolationFlags="2" statementViolationFlags="63" maxVips="200" outfit="249"/>
+	<group id="3" name="Game master" flags="1306712187663" customFlags="8600611" access="4" violationReasons="19" nameViolationFlags="10" statementViolationFlags="69" depotLimit="3000" maxVips="300" outfit="75"/>
+    <group id="4" name="Community Manager" flags="56559335751679" customFlags="59981667" access="5" violationReasons="23" nameViolationFlags="42" statementViolationFlags="213" depotLimit="4000" maxVips="400" outfit="266"/>
+    <group id="5" name="GOD" flags="21313743593458" customFlags="134217727" access="6" violationReasons="23" nameViolationFlags="426" statementViolationFlags="469" depotLimit="5000" maxVips="500" outfit="302"/>
+    <group id="6" name="Admin" flags="57171953819640" customFlags="134217727" access="7" violationReasons="22" nameViolationFlags="421" statementViolationFlags="461" depotLimit="5000" maxVips="500" outfit="254"/>
+    <group id="7" name="Admin" flags="57171953819640" customFlags="134217727" access="7" violationReasons="22" nameViolationFlags="421" statementViolationFlags="461" depotLimit="5000" maxVips="500" outfit="229"/>
+</groups>

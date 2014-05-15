@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Casino lever" enabled="yes">
+	<action uniqueid="5885" event="script"><![CDATA[
+		local pos = {x=1241, y=768, z=8, stackpos = 255}
+		local cash = 2160
+		local t = {
+			[{1, 55}] = 0,
+			[{56, 90}] = 2,
+			[{91, 100}] = 3
+		}
+		local a, b = getItemInfo(cash).name, getItemInfo(cash).plural
+ 
+		function onUse(cid, item, fromPosition, itemEx, toPosition)
+			local v = getThingfromPos(pos)
+			if v.itemid ~= cash then
+				return doCreatureSay(cid, 'You can only use ' .. b .. '.', TALKTYPE_ORANGE_1, false, cid)
+			end
+ 
+			local r = math.random(100)
+			for i, k in pairs(t) do
+				if r >= i[1] and r <= i[2] then
+					doRemoveItem(v.uid)
+					if k < 1 then
+						doCreatureSay(cid, 'You lost ' .. v.type .. ' ' .. (v.type == 1 and a or b) .. ' :(', TALKTYPE_ORANGE_1, false, cid)
+						doSendMagicEffect(pos, CONST_ME_POFF)
+					else
+						doCreatureSay(cid, 'You won ' .. v.type * k .. ' ' .. (v.type == 1 and a or b) .. ' :)', TALKTYPE_ORANGE_1, false, cid)
+						doCreateItem(cash, v.type * k, pos)
+						doSendMagicEffect(pos, CONST_ME_MAGIC_RED)
+						doSendMagicEffect(toPosition, CONST_ME_SOUND_YELLOW)
+					end
+					return true
+				end
+			end
+		end
+	]]></action>
+</mod>

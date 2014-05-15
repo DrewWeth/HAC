@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Earthquaker" nameDescription="an earthquaker" race="venom" experience="3150" speed="220" manacost="0">
+  <health now="2450" max="2450"/>
+  <look type="303" head="20" body="30" legs="40" feet="50" corpse="9783"/>
+  <targetchange interval="3000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="400"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="65" attack="84" poison="200"/>
+    <attack name="speed" interval="3000" chance="17" range="7" radius="7" target="1" speedchange="-550" 
+
+duration="4000">
+      <attribute key="shootEffect" value="earth"/>
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="ice" interval="1800" chance="19" length="7" spread="3" min="-150" max="-230">
+      <attribute key="areaEffect" value="carniphila"/>
+    </attack>
+    <attack name="melee" interval="6100" chance="100" target="0" spread="1" length="2" min="-120" max="-240" 
+
+outfit="green frog">
+      <attribute key="areaEffect" value="groundshaker"/>
+    </attack>
+    <attack name="outfit" interval="6100" chance="100" target="0" spread="1" length="2" monster="green frog" 
+
+duration="5000">
+      <attribute key="areaEffect" value="groundshaker"/>
+    </attack>
+    <attack name="earth" interval="2200" chance="33" target="1" range="7" radius="1" min="-65" max="-140">
+      <attribute key="shootEffect" value="earth"/>
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+      <attack name="earth" interval="3500" chance="32" radius="3" target="0" min="-140" max="-260">
+        <attribute key="areaEffect" value="stones"/>
+      </attack>
+      <attack name="poisoncondition" interval="2500" chance="24" radius="3" target="0" min="-815" max="-815">
+        <attribute key="areaEffect" value="greenspark"/>
+      </attack>
+  </attacks>
+  <defenses armor="55" defense="85">
+    <defense name="healing" interval="1000" chance="5" min="300" max="600">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="healing" interval="1300" chance="35" min="100" max="290">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="19" speedchange="1380" duration="500">
+      <attribute key="areaEffect" value="redspark"/>
+    </defense>
+  </defenses>
+  <elements>
+	<element earthPercent="99"/>
+	<element icePercent="5"/>
+	<element holyPercent="10"/>
+	<element physicalPercent="25"/>
+	<element energyPercent="-10"/>
+	<element firePercent="10"/>
+	<element deathPercent="-5"/>
+  </elements>
+  <immunities>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    	<voice sentence="TROOOOOOT!"/>
+	<voice sentence="Hooooot-Toooooot!"/>
+	<voice sentence="Tooooot"/>
+	<voice sentence="WRRRRR..."/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="65" chance1="100000" chancemax="0"/>
+        <item id="2198" chance="2200"/>
+    <item id="2152" countmax="4" chance1="100000" chancemax="0"/>
+    <item id="2672" countmax="7" chance="60000"/>
+    <item id="2498" chance="200"/>
+        <item id="7903" chance="1655"/>
+    <item id="5913" countmax="2" chance="7000"/>
+    <item id="2195" chance="500"/>
+        <item id="2476" chance="2555"/>
+        <item id="7589" chance="9055"/>
+    <item id="7366" countmax="6" chance1="10000" chancemax="0"/>
+        <item id="7589" chance="8055"/>
+    <item id="7850" countmax="10" chance1="8000" chancemax="0"/>
+        <item id="7386" chance="3200"/>
+    <item id="2475" chance="4000"/>
+    <item id="5910" countmax="3" chance="2000"/>
+    <item id="2145" countmax="4" chance="5000"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="3940" chance="4200"/>
+        <item id="2214" countmax="1" chance="4200"/>
+        <item id="3971" chance="2200"/>
+    <item id="5910" countmax="1" chance="7000"/>
+        <item id="2535" chance="1000"/>
+        <item id="8912" chance="3000"/>
+        <item id="2430" chance="2200"/>
+        <item id="2155" chance="3200"/>
+        <item id="2150" countmax="3" chance1="10000" chancemax="0"/>
+        <item id="2536" chance="555"/>
+        <item id="7885" chance="555"/>
+        <item id="7588" chance="7055"/>
+        <item id="2288" countmax="4" chance1="7000" chancemax="0"/>
+        <item id="7588" chance="7055"/>
+        <item id="2168" chance="2500"/>
+        <item id="2197" chance="800"/>
+      </inside>
+    </item>
+  </loot>
+</monster> 

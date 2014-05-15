@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="demon lord" nameDescription="a demon lord" race="blood" experience="10000" speed="260" manacost="0">
+  <health now="9500" max="9500"/>
+  <look type="107" head="20" body="30" legs="40" feet="50" corpse="5995"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="120" attack="100"/>
+    <attack name="fire" interval="2000" chance="34" range="7" radius="7" target="1" min="-110" max="-200">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+<attack name="fire" interval="2000" chance="20" range="7" radius="4" target="1" min="-55" max="-105">
+  <attribute key="shootEffect" value="fire"/>
+  <attribute key="areaEffect" value="firearea"/>
+</attack>
+
+    <attack name="manadrain" interval="1000" chance="17" range="7" min="-35" max="-75"/>
+    <attack name="physical" interval="1000" chance="25" range="7" min="-55" max="-95">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+</attacks>
+  <defenses armor="40" defense="35">
+    <defense name="healing" interval="1000" chance="15" min="90" max="150">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <summons max="4">
+    <summon name="banshe" interval="1000" chance="4000"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Your blood is my blood die!"/>
+    <voice sentence="This is my house go out!"/>
+  </voices>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons max="3">
+    <summon name="banshee" interval="1000" chance="5000"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Your head are mines!"/>
+    <voice sentence="Stupid human! will be down"/>
+    <voice sentence="MWA HA HA HA HA!"/>
+  </voices>
+<loot>
+<item id="2148" chance="100000" countmax="100" /> -- gold coin
+<item id="2148" chance="50000" countmax="100" /> -- gold coin
+<item id="2152" chance="25000" countmax="50" /> -- platinum coin
+<item id="2393" chance="20000" /> -- giant sword
+
+<item id="1988" chance="100000" > -- backpack
+<inside>
+	<item id="5803" chance="5000" /> -- arbalest
+	<item id="2487" chance="12500" /> -- crown armor
+	<item id="2671" chance="100000" countmax="100" /> -- ham
+	<item id="2152" chance="50000" countmax="70" /> -- platinum coin
+	<item id="2497" chance="25000" /> -- crusader helmet
+	<item id="2124" chance="33333" /> -- crystal ring
+        <item id="2672" chance="100000" countmax="100" /> -- dragon ham
+	<item id="2148" chance="100000" countmax="100" /> -- gold coin
+	<item id="2534" chance="12500" /> -- vampire shield
+	<item id="2671" chance="100000" countmax="100" /> -- ham
+	<item id="1985" chance="14286" /> -- grey tome
+	<item id="5911" chance="50000" countmax="2" /> -- red piece of cloth
+	<item id="2470" chance="33333" /> -- golden legs
+	<item id="2671" chance="100000" countmax="100" /> -- ham
+	<item id="2152" chance="50000" countmax="55" /> -- platinum coin
+</inside>
+</item>
+<item id="2645" chance="16667" /> -- steel boots
+<item id="2381" chance="100000" /> -- halberd
+	<item id="2671" chance="100000" countmax="100" /> -- ham
+<item id="2788" chance="50000" countmax="3" /> -- red mushroom
+<item id="2492" chance="16667" /> -- dragon scale mail
+<item id="2152" chance="25000" countmax="50" /> -- platinum coin
+<item id="2672" chance="50000" countmax="20" /> -- dragon ham
+<item id="2520" chance="20000" /> -- demon shield
+
+</loot>
+</monster>

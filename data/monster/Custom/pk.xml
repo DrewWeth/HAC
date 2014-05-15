@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Player Killer" nameDescription="a player killer(Level 152). He is a Royal Paladin. He is Member of PK SQD" race="blood" experience="1500" speed="650" manacost="0">
+  <health now="2600" max="2600"/>
+  <look type="128" head="20" body="30" legs="40" feet="50" addons="3" corpse="6080"/>
+  <targetchange interval="10000" chance="30"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="100"/>
+    <flag lightlevel="233"/>
+    <flag lightcolor="35"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="700"/>
+    <flag skull="5" />
+  </flags>
+  <attacks>
+    <attack name="physical" interval="2000" chance="100" range="4" min="-0" max="-420">
+      <attribute key="shootEffect" value="redstar"/>
+    </attack>
+      <attack name="holy" interval="1500" chance="90" range="7" min="-60" max="-70">
+	
+      <attribute key="shootEffect" value="smallholy"/>
+    </attack>
+    <attack name="Ultimate Healing" interval="2000" chance="1000" min="700" max="800"/>
+  </attacks>
+  <defenses armor="27" defense="52" />
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <loot>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+    <item id="1949" chance="10000"/>
+    <item id="2467" chance="10000"/>
+    <item id="2642" chance="6666"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2044" chance="6666"/>
+        <item id="2689" countmax="3" chance1="20000" chancemax="0"/>
+        <item id="2401" chance="3333"/>
+        <item id="2166" chance="1428"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

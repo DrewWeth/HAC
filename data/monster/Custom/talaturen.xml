@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Talaturen" nameDescription="Talaturen" race="blood" experience="0" speed="600" manacost="490"> -- Dont be angry Talaturen! :)
+  <health now="1000" max="1000"/>
+  <look type="211" head="20" body="30" legs="40" feet="50" corpse="4252"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="0"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="melee" interval="500" skill="80" attack="50"/>
+                <attack name="fire" interval="2000" chance="90" range="6" target="1" min="-220" max="-350">
+                        <attribute key="areaEffect" value="fireattack"/>
+                        <attribute key="shootEffect" value="fire"/>
+                </attack>
+	<attack name="Fierce Berserk" interval="3000" chance="67" min="-300" max="-400"/>
+    <attack name="Ultimate Healing" interval="1000" min="0" max="1000"/>
+   </attacks>
+ <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+  </voices>
+  <loot>
+  </loot>
+</monster>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demonoid" nameDescription="a demon master" race="fire" experience="17700" speed="320" manacost="0">
+  <health now="16600" max="16600"/>
+  <look type="35" head="19" body="71" legs="128" feet="128" corpse="2916"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="30"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="2"/>
+    <flag runonhealth="2100"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="315" max="-1023"/>
+    <attack name="stone shower" interval="4000" chance="10" min="-223" max="-544"/>
+    <attack name="paralyze" interval="3500" chance="35"/>
+    <attack name="sudden death" interval="7000" chance="35" min="-800" max="-900"/>
+    <attack name="Explosive Arrow" interval="2000" chance="80" min="-120" max="-320"/>
+  </attacks>
+  <defenses armor="80" defense="75">
+    <defense name="Invisible" interval="4000" chance="20"/>
+    <defense name="Ultimate Healing" interval="4000" chance="100" min="50" max="400"/>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <summons max="3">
+   
+  <summon name="demon" interval="4000" chance="30"/>
+ 
+  <summon name="fire elemental" interval="3000" chance="100"/>
+ 
+  </summons>
+
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2600" chance="10000"/>
+    <item id="1987" chance="100000">
+    <item id="7898" chance="1333"/>
+    <item id="7895" chance="3333"/>
+      <inside>
+        <item id="2148" countmax="50" chance1="80000" chancemax="0"/>
+        <item id="2411" chance="5000"/>
+        <item id="2792" countmax="5" chance1="6666" chancemax="0"/>
+        <item id="2160" countmax="12" chance1="80000" chancemax="0"/>
+        <item id="2793" countmax="2" chance1="6666" chancemax="0"/>
+        <item id="2656" chance="1333"/>
+        <item id="2466" chance="800"/>
+        <item id="2436" chance="1428"/>
+        <item id="2123" chance="1000"/>
+        <item id="6090" chance="3033"/>
+        <item id="7368" countmax="2" chance1="6666" chancemax="0"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

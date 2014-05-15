@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rish" nameDescription="rish" race="blood" experience="80500" speed="490" manacost="0">
+  <health now="104100" max="104100"/>
+  <look type="149" head="58" body="95" legs="52" feet="132" addons="3" corpse="6081"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-950"/>
+    <attack name="death" interval="1200" chance="25" range="6" target="1" min="-1400" max="-1800">
+		<attribute key="shootEffect" value="suddendeath"/>
+<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	<attack name="ice" interval="2000" chance="90" radius="10" target="0" min="-6" max="-800">
+		
+	</attack>
+	<attack name="lifedrain" interval="1000" chance="12" length="9" spread="0" min="-0" max="-500">
+		<attribute key="areaEffect" value="redspark"/>
+	</attack>
+	<attack name="fire" interval="3000" chance="40" range="7" radius="4" target="1" min="1000" max="-1300">
+		<attribute key="shootEffect" value="fire"/>
+      		<attribute key="areaEffect" value="fireattack"/>
+   	</attack>
+    <attack name="energy" interval="1000" chance="25" length="10" spread="6" min="-900" max="-1900">
+      <attribute key="areaEffect" value="bigclouds"/>
+    </attack>
+  </attacks>
+  <defenses armor="192" defense="310">
+    <defense name="healing" interval="2000" chance="25" min="480" max="1390">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+	
+		<element energyPercent="90"/>
+		<element earthPercent="25"/>
+		<element icePercent="-12"/>
+		<element holyPercent="-15"/>
+</elements>              
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+	<summons maxSummons="5">
+    	<summon name="demon" interval="2000" chance="3"/>
+	<summon name="hand of cursed fate" interval="3000" chance="2"/>
+	<summon name="elemental" interval="1000" chance="2"/>
+  	</summons>
+
+  <voices interval="3000" chance="10">
+    <voice sentence="HAHAHAHA!"/>
+    <voice sentence="Good Luck"/>
+    <voice sentence="ANNIHILATION"/>
+  </voices>
+  <loot>
+   <item id="2148" countmax="100" chance1="100000" chancemax="0"/> --Gold Coin
+   <item id="2150" countmax="3" chance1="8000" chancemax="0"/> --Small Amethysts
+   <item id="2645" chance="600"/> --Steel Boots
+   <item id="6558" countmax="3" chance1="5555" chancemax="0"/> --Concentrated Demonic Blood
+   <item id="2666" countmax="1" chance1="25000" chancemax="0"/> --Meat
+   <item id="6500" countmax="1" chance1="2500" chancemax="0"/> --Demonic Essence
+   <item id="5944" chance="8888"/> --Soul Orb
+   <item id="2124" chance="400"/> --Crystal Ring
+   <item id="1987" chance="100000"> --Bag
+       <inside>
+	      <item id="2470" chance="300"/> --Soul Orb
+		  <item id="9813" chance="2500"/> --Rare Rusty Legs
+	   	  <item id="7368" countmax="1" chance1="1200" chancemax="0"/> --Assassin Star
+	      <item id="2148" countmax="100" chance1="100000" chancemax="0"/> --Gold Coin
+	      <item id="2148" countmax="26" chance1="100000" chancemax="0"/> --Gold Coin
+           <item id="2487" chance="550"/> --Crown Armor
+           <item id="2181" chance="2500" /> -- terra rod
+           <item id="5022" countmax="3" chance1="10000" chancemax="0"/> --White Pearl
+           <item id="2156" chance="800"/> --Red Gem
+		   <item id="7591" chance="2900"/> --GHP
+		   <item id="7404" chance="400"/> -- Assassin Dagger
+           <item id="5911" chance="1800"/> --Red Piece of Cloth
+       </inside>
+   </item>
+
+ </loot>
+</monster>

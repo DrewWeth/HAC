@@ -1,0 +1,16 @@
+	<vocation id="9" name="Slayer Sorcerer" description="an Slayer Sorcerer" needpremium="0" gaincap="50" gainhp="5" gainmana="50" gainhpticks="4" gainhpamount="50" gainmanaticks="2" gainmanaamount="50" manamultiplier="1.1" attackspeed="2000" soulmax="500" gainsoulticks="15" fromvoc="5" lessloss="50">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="2.0" sword="2.0" axe="2.0" distance="2.0" shielding="1.5" fishing="1.1" experience="1.5"/>
+	</vocation>
+	<vocation id="10" name="Slayer Druid" description="an Slayer Druid" needpremium="0" gaincap="50" gainhp="5" gainmana="50" gainhpticks="4" gainhpamount="50" gainmanaticks="2" gainmanaamount="50" manamultiplier="1.1" attackspeed="2000" soulmax="500" gainsoulticks="15" fromvoc="6" lessloss="50">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.5" club="1.8" sword="1.8" axe="1.8" distance="1.8" shielding="1.5" fishing="1.1" experience="1.5"/>
+	</vocation>
+	<vocation id="11" name="Slayer paladin" description="a Slayer paladin" needpremium="0" gaincap="50" gainhp="50" gainmana="15" gainhpticks="3" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.4" attackspeed="1300" soulmax="500" gainsoulticks="15" fromvoc="7" lessloss="50">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.2" club="1.2" sword="1.2" axe="1.2" distance="1.1" shielding="1.1" fishing="1.1" experience="1.5"/>
+	</vocation>
+	<vocation id="12" name="Slayer Knight" description="a Slayer Knight" needpremium="0" gaincap="50" gainhp="15" gainmana="5" gainhpticks="8" gainhpamount="50" gainmanaticks="4" gainmanaamount="50" manamultiplier="3.0" attackspeed="1300" soulmax="500" gainsoulticks="15" fromvoc="8" lessloss="50">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill fist="1.1" club="1.1" sword="1.1" axe="1.1" distance="1.4" shielding="1.1" fishing="1.1" experience="1.5"/>
+	</vocation>

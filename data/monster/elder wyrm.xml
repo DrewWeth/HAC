@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Wyrm" nameDescription="an elder wyrm" race="blood" experience="2250" speed="280" manacost="0">
+	<health now="3825" max="3825"/>
+    <look type="291" corpse="8941"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="10"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="1200"/>
+    </flags>
+	<attacks>
+      <attack name="melee" interval="2000" min="80" max="-264"/>
+      <attack name="physical" interval="2000" chance="25" range="7" radius="4" target="1" min="-70" max="-170">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="blackspark"/>
+	  </attack>
+      <attack name="energycondition" interval="2000" chance="36" radius="3" target="0" min="-100" max="-220">
+        <attribute key="areaEffect" value="energy"/>
+      </attack>
+      <attack name="physical" interval="3000" chance="50" length="7" spread="3" min="-10" max="-144">
+        <attribute key="areaEffect" value="poff"/>
+      </attack>
+      <attack name="fire" interval="3000" chance="8" length="8" spread="3" min="-90" max="-150">
+		<attribute key="areaEffect" value="firearea"/>
+	  </attack>
+  </attacks>
+
+    <defenses armor="30" defense="31">
+      <defense name="healing" interval="6000" chance="65" min="55" max="115">
+		
+    </defenses>
+    <immunities>
+      <immunity energy="1"/>
+      <immunity paralyze="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="GRRR!"/>
+      <voice sentence="GROOOOAAAAAAAAR!"/>
+    </voices>
+    <loot>
+      <item id="2672" countmax="3" chance1="9000" chancemax="0"/>
+      <item id="2148" countmax="200" chance1="6000" chancemax="0"/>
+      <item id="2647" chance="2222"/>
+      <item id="8871" chance="3990"/>
+      <item id="2546" countmax="10" chance1="9000" chancemax="0"/>
+      <item id="1987" chance="12000">
+        <inside>
+          <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+          <item id="7430" chance="2554"/>
+          <item id="7588" chance="6332"/>
+          <item id="8921" chance="6999"/>
+		  <item id="8871" chance="2000"/>
+		  <item id="7430" chance="2200"/>
+        </inside>
+      </item>
+    </loot>
+</monster>

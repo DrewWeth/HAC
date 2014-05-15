@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Mission Npc" script="mission.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="325" head="29" body="4" legs="20" feet="96" addons="3" corpse="2212"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|. What brings you to me? You want start the {quest}?"/>
+    </parameters>
+
+</npc>

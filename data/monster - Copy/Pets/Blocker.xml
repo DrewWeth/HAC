@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Blocker" nameDescription="a Blocker pet" race="energy" experience="0" species="earth" speed="5000" manacost="0">
+  <health now="2000000000" max="2000000000"/>
+    <look type="285" corpse="0"/>
+    <targetchange interval="20000" chance="30"/>
+    <strategy attack="100" defense="0"/>
+	<script>
+		<event name="summonDeath"/>
+	</script>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="100"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="1"/>
+	  <flag skull="black"/>
+    </flags>
+    <attacks>
+         <attack name="melee" interval="1" skill="100" attack="-100000" earth="-900000"/>
+    </attacks>
+    <defenses armor="30" defense="30">
+      <defense name="healing" interval="1" chance="100" min="10000000" max="10000000"/>
+	</defenses>
+    <elements>
+     <element deathPercent="30"/>
+     <element physicalPercent="20"/>
+     <element holyPercent="20"/>
+     <element firePercent="-25"/>
+    </elements>
+    <immunities>
+      <immunity paralyze="1"/>
+      <immunity invisible="1"/>
+      <immunity earth="1"/>
+      <immunity energy="1"/>
+	  <immunity holy="1"/>
+	  <immunity fire="1"/>
+	  <immunity ice="1"/>
+    </immunities>
+    <loot>
+ 
+    </loot>
+  </monster>

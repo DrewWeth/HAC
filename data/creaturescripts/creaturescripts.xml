@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="combat" name="partyAndGuildProtection" event="script" value="partyAndGuildProtection.lua"/>
+
+	<event type="login" name="Welcome" script="Welcome.lua"/>
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="advance" name="Advance" event="script" value="Advance.lua"/>
+	<event type="death" name="summonDeath" script="summon_death.lua"/>
+	<event type="login" name="MutePlayer" event="script" value="mute_check.lua"/>
+	<event type="look" name="rebirth" event="script" value="rebirth.lua"/>
+	<event type="login" name="EffectOutLogin" event="script" value="outfiteffect.lua"/>
+	<event type="outfit" name="OutfitEffects" event="script" value="outfiteffect.lua"/>
+	<event type="login" name="Welcoem" script="loginmassage.lua"/>
+	<event type="logout" name="Goodbye" script="logoutmassage.lua"/>
+	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+	<!-- <event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/> -->
+	<!-- <event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/> -->
+	<!-- <event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/> -->
+	<event type="death" name="Deatheffect" event="script" value="Deatheffect.lua"/>
+	<event type="preparedeath" name="forever amulet" event="script" value="forever amulet.lua"/>	
+	<event type="preparedeath" name="skull amulet" event="script" value="skull amulet.lua"/>
+	<event type="preparedeath" name="charge amulet" event="script" value="charge amulet.lua"/>
+	<event type="login" name="Outfita" event="script" value="outfit.lua"/>
+	<event type="death" name="Portal" event="script" value="dprune.lua" />
+	<event type="login" name="firstItems" event="script" value="firstitems.lua"/>
+	
+</creaturescripts>

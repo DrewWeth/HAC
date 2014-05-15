@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ancient Dragon" nameDescription="an ancient dragon" race="blood" experience="0" speed="0" manacost="0">
+ 
+*******************************************************************************************
+*                   ANCIENT DRAGON: This monster Was made by Amy Azzkaban                 *
+*                   Old Name: Ultimate dragon.    New Name: Ancient Dragon                *
+*                                   Para servers 8.60+                                    *
+* ADVERTENCIA: El item ID de este monstruo puede variar dependiendo del que usa tu OT     *
+*******************************************************************************************
+ 
+  <health now="30000" max="30000"/>
+  <look type="7" />
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="0"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="59" fire="100"/>
+        <attack name="physical" interval="900" chance="50" range="5" min="-90" max="-290">
+            <attribute key="shootEffect" value="fire"/>
+            <attribute key="areaEffect" value="fireattack"/>
+        </attack>
+    </attacks>
+  <defenses armor="20" defense="20">
+    <defense name="healing" interval="1000" chance="25" min="42" max="300">
+      <attribute key="areaEffect" value="dragonhead"/>
+    </defense>
+    <defense name="outfit" interval="1" chance="50" item="12319" duration="7000">
+            <attribute key="areaEffect" value="dragonhead"/>
+        </defense>
+  </defenses>
+  <elements>
+    <element firePercent="100"/>
+  </elements>
+  <immunities>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Ghastly Dragon" interval="4000" chance="25" max="2"/>
+  </summons>
+<voices interval="5000" chance="10">
+        <voice sentence="GROOAAARRR" yell="1"/>
+        <voice sentence="FCHHHHH" yell="1"/>
+    </voices>
+  <loot>
+  </loot>
+</monster>

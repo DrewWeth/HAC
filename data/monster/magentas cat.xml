@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magenta's Cat" nameDescription="Magenta's cat" race="blood" experience="1250" speed="144" manacost="0">
+	<health now="650" max="650"/>
+	<look type="276" head="0" body="0" legs="0" feet="0" corpse="7637"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="6"/>
+		<flag runonhealth="8"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="0" attack="0"/>
+	</attacks>
+	<defenses armor="10" defense="18"/>
+	    <defense name="invisible" interval="6000" chance="50" duration="2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+	<elements>
+	<element firePercent="5"/>
+	<element earthPercent="10"/>
+	<element deathPercent="-25"/>
+	<element icePercent="-25"/>
+	<element holyPercent="95"/>
+    </elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+  </immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="*Purr*"/>
+		<voice sentence="Mew!"/>
+		<voice sentence="Meow!"/>
+	</voices>
+	<loot>
+	<item id="6571" chance="15000"/>
+	</loot>
+</monster>

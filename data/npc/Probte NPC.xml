@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Probte NPC" script="data/npc/scripts/Probte.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+<look type="23" head="78" body="88" legs="0" feet="88" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|. Iam Charging Probte If You WAnt To be Probted Say {Probte}."/>
+        <parameter key="message_farewell" value="Good bye my dear friend."/>
+    </parameters>
+</npc>

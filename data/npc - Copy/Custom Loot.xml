@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Custom Loot" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="12" body="101" legs="122" feet="115" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Farewell then.." />
+		
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="Boots Of haste,2195,40000;Knight Legs,2477,10000;Knight Armor,2476,10000;Golden Armor,2466,20000;Mastermind Shield,2514,200000;Magic Longsword,2390,200000;Magic Plate Armor,2472,200000;freak sword,2438,1200000;hell's breath axe,7413,1200000;humb club,7387,1200000;frigo rod,7409,1200000;sd wand,7410,1200000;fuck star,7368,2000000;ice ball wand,7424,2000000;spiked club,7452,2000000;mega golden royal axe,7456,2000000;zippy sword,3963,8000000;greenish star,7366,30000000;phentoms Old wand,2184,20000000;pimped brain hammer,7414,20000000;" />
+		<parameter key="shop_buyable" value=""/>
+	</parameters>
+</npc>

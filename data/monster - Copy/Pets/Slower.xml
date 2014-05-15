@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slower" nameDescription="a Slower" race="energy" experience="0" speed="4000" manacost="0">
+
+-----------------THIS MONSTER WAS MADE OR RE-EDITED BY AMY AZZKABAN ---------
+--You can use this monster in you monsterpack or server!---
+--This monster is free, and you can re-edit, but not change name!------------
+--Do not delete this 4 lines!---
+
+	<health now="1000000000" max="1000000000"/>
+	<look type="348" corpse="0"/>
+	<targetchange interval="1000" chance="30"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="5"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag skull="black"/>
+		<flag invisible="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1" min="-40000000" max="-40000000"/>
+		
+		<attack name="speed" interval="1" chance="100" range="7" radius="4" target="1" speedchange="-900" duration="15000">
+		<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="ice" interval="1" chance="100" range="7" min="-40000000" max="-40000000">
+
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="50">
+		<defense name="healing" interval="1" chance="100" min="10000000" max="10000000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="75"/>
+		<element firePercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hail Durin!"/>
+	</voices>
+	  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+</monster>

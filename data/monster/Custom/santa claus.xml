@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<monster name="Santa Claus" nameDescription="a santa claus" experience="9000000" speed="870" race="Blood">
+  <health now="199000" max="199000"/>
+  <look type="153" head="0" body="94" legs="94" feet="95" addons="3" corpse="6080"/>
+  <targetchange interval="1000" chance="50"/>
+  <strategy attack="100"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="11"/>
+		<flag staticattack="0"/>
+		<flag runonhealth="80"/>
+	</flags>
+  <attacks>
+  </attacks>
+  <defenses defense="0" armor="0">
+    <defense name="healing" interval="2000" chance="30" min="2000" max="2000"/>
+	<defense name="speed" interval="1000" chance="15" speedchange="500" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="invisible" interval="3000" chance="50" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+  </defenses>
+	<loot>
+		<item id="2148" countmax="22" chance="22500"/><!-- gold coin -->
+		<item id="6497" chance="7000"/><!-- present bag -->
+		<item id="2111" countmax="5" chance="7000"/><!-- snowball -->
+		<item id="6277" countmax="3" chance="7000"/><!-- lump of cake dough -->
+		<item id="2675" countmax="3" chance="7000"/><!-- orange -->
+		<item id="2687" countmax="5" chance="7000"/><!-- cookie -->
+		<item id="2679" countmax="4" chance="7000"/><!-- cherry -->
+		<item id="2674" countmax="3" chance="700"/><!-- apple -->
+		<item id="2695" countmax="2" chance="5000"/><!-- egg -->
+		<item id="2688" countmax="3" chance="5000"/><!-- candy cane -->
+		<item id="2653" chance="5000"/><!-- cream cake -->
+		<item id="2072" chance="5000"/><!-- lute -->
+		<item id="2260" chance="5000"/><!-- blank rune -->
+		<item id="2163" chance="4000"/><!-- magic light wand -->
+		<item id="1852" chance="4000"/><!-- landscape picture -->
+		<item id="1988" chance="100000"><!-- backpack -->
+			<inside>
+		<item id="2278" chance="4000"/><!-- bronze amulet -->
+		<item id="1949" chance="4000"/><!-- scroll -->
+		<item id="2196" countmax="2" chance="4000"/><!-- gingerbread man -->
+		<item id="2661" chance="4000"/><!-- scarf -->
+		<item id="5890" countmax="5" chance="4000"/><!-- chicken feather -->
+		<item id="5894" countmax="3" chance="4000"/><!-- bat wing -->
+		<item id="5902" chance="4000"/><!-- honeycomb -->
+		<item id="4873" chance="4000"/><!-- explorer brooch -->
+		<item id="7909" countmax="5" chance="3500"/><!-- walnut -->
+		<item id="7910" countmax="100" chance="3500"/><!-- peanut -->
+		<item id="6393" chance="1500"/><!-- valentine cake -->
+		<item id="6091" chance="1500"/><!-- watch -->
+		<item id="6520" chance="1500"/><!-- broom -->
+		<item id="2492" chance="1000"/><!-- piggy bank -->
+		<item id="5792" chance="1000"/><!-- dice -->
+		<item id="7730" chance="1000"/><!-- mirror -->
+		<item id="1686" chance="750"/><!-- blue round pillow -->
+		<item id="2195" chance="750"/><!-- red round pillow -->
+		<item id="1688" chance="750"/><!-- green round pillow -->
+		<item id="1689" chance="750"/><!-- yellow round pillow -->
+		<item id="2102" chance="500"/><!-- flower bowl -->
+		<item id="4839" chance="500"/><!-- bottle -->
+		<item id="2159" countmax="2" chance="500"/><!-- scarab coin -->
+		<item id="5022" countmax="2" chance="500"/><!-- orichalcum pearl  -->
+		<item id="2160" chance="250"/><!-- crystal coin -->
+		<item id="5785" chance="250"/><!-- crystal coin -->
+		<item id="7731" chance="250"/><!-- elvenhair rope -->
+		<item id="2472" chance="2500"/><!-- vampire shield -->
+				</inside>
+		</item>
+	</loot>
+</monster>

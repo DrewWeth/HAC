@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Roxana" nameDescription="A Roxana" race="energy" experience="750000" speed="1000" manacost="420">
+  <health now="40000000" max="40000000"/>
+  <look type="261" corpse="9775"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1" min="-70000" max="-120000"/>
+    <attack name="lifedrain" interval="1" chance="4" range="1" min="-50" max="-250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+    <attack name="speed" interval="1" chance="15" range="7" speedchange="-600" duration="30000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="lifedrain" interval="1" chance="17" radius="3" target="0" min="-1200" max="-2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="lifedrain" interval="1" chance="9" length="8" spread="0" min="-1000" max="-2000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="poisoncondition" interval="1" chance="9" length="8" spread="0" min="-3000" max="-4000">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+  </attacks>
+  <defenses armor="20" defense="20">
+    <defense name="healing" interval="1" chance="17" min="50" max="150">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="4">
+    <summon name="bonebeast" interval="1000" chance="17" max="4"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="PaLiX PoIsON fROM YOUR BODY!!"/>
+    <voice sentence="SnakeBite Rod Rox!!"/>
+    <voice sentence="Death awaits all!"/>
+    <voice sentence="Thy living flesh offends me!"/>
+    <voice sentence="Death and Decay!"/>
+  </voices>
+<loot>
+    <item id="2160" chance="100000" countmax="100"/>
+</loot>
+</monster>

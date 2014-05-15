@@ -1,0 +1,101 @@
+<monsters>
+
+
+
+<!-- Statues -->
+<monster name="Mongos" file="Statue/Mongo Statue.xml"/>
+<monster name="Lavanoss" file="Statue/Lavanos Statue.xml"/>
+<monster name="turtle queens" file="Statue/Turtle queen Statue.xml"/>
+<monster name="Cutters" file="Statue/Cutter Statue.xml"/>
+<monster name="Kraknaknork Demons" file="Statue/Kraknaknork Demon Statue.xml"/>
+<monster name="birdssons" file="Statue/birdsson Statue.xml"/>
+<monster name="Freshers" file="Statue/Fresher Statue.xml"/>
+<monster name="Habils" file="Statue/Habil Statue.xml"/>
+<monster name="Rebells" file="Statue/Rebell Statue.xml"/>
+<monster name="Mordes" file="Statue/Morde Statue.xml"/>
+<monster name="Doriss" file="Statue/Doris Statue.xml"/>
+<monster name="Mozalas" file="Statue/Mozala Statue.xml"/>
+<monster name="Rakitas" file="Statue/Rakita Statue.xml"/>
+<monster name="Weirdos" file="Statue/Weirdo Statue.xml"/>
+<monster name="Sokerias" file="Statue/Sokeria Statue.xml"/>
+<monster name="Dangers" file="Statue/Danger Statue.xml"/>
+<monster name="Loranios" file="Statue/Loriano Statue.xml"/>
+<monster name="Rashids" file="Statue/Rashid Statue.xml"/>
+<monster name="Nozads" file="Statue/Nosad Statue.xml"/>
+<monster name="Mangas" file="Statue/Manga Statue.xml"/>
+<monster name="Hombles" file="Statue/Homble Statue.xml"/>
+<monster name="Charlies" file="Statue/Charlie Statue.xml"/>
+<monster name="Miss turtles" file="Statue/Miss turtle Statue.xml"/>
+<monster name="black knights" file="Statue/black knight Statue.xml"/>
+<monster name="Novas" file="Statue/Nova Statue.xml"/>
+<monster name="rangos" file="Statue/Rango Statue.xml"/>
+<monster name="bronsons" file="Statue/Bronson Statue.xml"/>
+<monster name="Fatals" file="Statue/Fatal Statue.xml"/>
+<monster name="Jasmines" file="Statue/Jasmine Statue.xml"/>
+<monster name="Fionas" file="Statue/Fiona Statue.xml"/>
+
+<!-- Others -->
+<monster name="Zombie Event" file="zombie_event.xml"/>
+<monster name="Trainer" file="Trainer.xml"/>
+
+<!-- VIP -->
+<monster name="Bildger" file="Vip/Bildger.xml"/>
+<monster name="Dolder" file="Vip/Dolder.xml"/>
+<monster name="Finex" file="Vip/Finex.xml"/>
+<monster name="Hammer" file="Vip/Hammer.xml"/>
+<monster name="Jin" file="Vip/Jin.xml"/>
+<monster name="Hyper" file="Vip/Hyper.xml"/>
+<monster name="marid" file="Vip/marid.xml"/>
+<monster name="Massive Murder" file="Vip/Massive Murder.xml"/>
+<monster name="Pandora" file="Vip/Pandora.xml"/>
+<monster name="Pumper" file="Vip/Pumper.xml"/>
+<monster name="Roxana" file="Vip/Roxana.xml"/>
+<monster name="Slutter" file="Vip/Slutter.xml"/>
+<monster name="spiriter" file="Vip/spiriter.xml"/>
+<monster name="Vayo" file="Vip/Vayo.xml"/>
+<monster name="White walker" file="Vip/White walker.xml"/>
+<monster name="winta" file="Vip/winta.xml"/>
+
+<!-- new monsters -->
+<monster name="Ghost Star" file="New monsters/Ghost Star.xml"/>
+<monster name="Lavanos" file="New monsters/Lavanos.xml"/>
+<monster name="turtle queen" file="New monsters/turtle queen.xml"/>
+<monster name="Cutter" file="New monsters/Cutter.xml"/>
+<monster name="Kraknaknork Demon" file="New monsters/Kraknaknork Demon.xml"/>
+<monster name="birdsson" file="New monsters/birdsson.xml"/>
+<monster name="Fresher" file="New monsters/Fresher.xml"/>
+<monster name="Habil" file="New monsters/Habil.xml"/>
+<monster name="Rebell" file="New monsters/Rebell.xml"/>
+<monster name="Morde" file="New monsters/Morde.xml"/>
+<monster name="Doris" file="New monsters/Doris.xml"/>
+<monster name="Mozala" file="New monsters/Mozala.xml"/>
+<monster name="Rakita" file="New monsters/Rakita.xml"/>
+<monster name="Weirdo" file="New monsters/Weirdo.xml"/>
+<monster name="Sokeria" file="New monsters/Sokeria.xml"/>
+<monster name="Danger" file="New monsters/Danger.xml"/>
+<monster name="Loriano" file="New monsters/Loriano.xml"/>
+<monster name="Rashid" file="New monsters/Rashid.xml"/>
+<monster name="Nosad" file="New monsters/Nosad.xml"/>
+<monster name="Manga" file="New monsters/Manga.xml"/>
+<monster name="Mongo" file="New monsters/Mongo.xml"/>
+<monster name="Homble" file="New monsters/Homble.xml"/>
+<monster name="Charlie" file="New monsters/Charlie.xml"/>
+<monster name="Miss turtle" file="New monsters/Miss turtle.xml"/>
+<monster name="black knight" file="New monsters/black knight.xml"/>
+<monster name="nova" file="New monsters/nova.xml"/>
+<monster name="rango" file="New monsters/Rango.xml"/>
+<monster name="bronson" file="New monsters/bronson.xml"/>
+<monster name="Fatal" file="New monsters/Fatal.xml"/>
+<monster name="Jasmine" file="New monsters/Jasmine.xml"/>
+<monster name="Fiona" file="New monsters/Fiona.xml"/>
+
+<!-- pets -->
+<monster name="blocker" file="pets/blocker.xml"/>
+<monster name="Fucker" file="pets/Fucker.xml"/>
+<monster name="invisble tiger" file="pets/invisble tiger.xml"/>
+<monster name="The Soldier" file="pets/The Soldier.xml"/>
+<monster name="Druger" file="pets/Druger.xml"/>
+<monster name="Slower" file="pets/Slower.xml"/>
+<monster name="Ninja" file="pets/Ninja.xml"/>
+<monster name="Psyko" file="pets/Psyko.xml"/>
+</monsters>

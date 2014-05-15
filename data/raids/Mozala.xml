@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This raid was made by: OT RaidMaker v1.3-->
+<raid>
+  <!--Announcements-->
+  <announce delay="1" type="Default" message="mozala is attacking town" />
+  <!--Single Spawns-->
+  <!--Area Spawns-->
+  <areaspawn delay="1" fromx="1973" fromy="2005" fromz="7" tox="2010" toy="2005" toz="7">
+    <monster name="Mozala" amount="10" />
+  </areaspawn>
+</raid>
