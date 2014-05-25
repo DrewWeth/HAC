@@ -9,22 +9,22 @@
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
 
-	redSkullLength = 5 * 6 * 7 * 9
-	blackSkullLength = 6 * 7 * 8 * 9
-	dailyFragsToRedSkull = 20
-	weeklyFragsToRedSkull = 40
-	monthlyFragsToRedSkull = 80
-	dailyFragsToBlackSkull = dailyFragsToRedSkull
-	weeklyFragsToBlackSkull = weeklyFragsToRedSkull
-	monthlyFragsToBlackSkull = monthlyFragsToRedSkull
-	dailyFragsToBanishment = dailyFragsToRedSkull
-	weeklyFragsToBanishment = weeklyFragsToRedSkull
-	monthlyFragsToBanishment = monthlyFragsToRedSkull
+	redSkullLength = 1000 * 60 * 60 * 24 * 2
+	blackSkullLength = 1000 * 60 * 60 * 24 * 3
+	dailyFragsToRedSkull = 4
+	weeklyFragsToRedSkull = 9999
+	monthlyFragsToRedSkull = 9999
+	dailyFragsToBlackSkull = 5 
+	weeklyFragsToBlackSkull = 9999
+	monthlyFragsToBlackSkull = 9999
+	dailyFragsToBanishment = 9999
+	weeklyFragsToBanishment = 9999
+	monthlyFragsToBanishment = 9999
 	blackSkulledDeathHealth = 10
-	blackSkulledDeathMana = 200
+	blackSkulledDeathMana = 0
 	useBlackSkull = true
 	useFragHandler = true
-	advancedFragList = true
+	advancedFragList = false
 
 	notationsToBan = 3
 	warningsToFinalBan = 4
@@ -41,23 +41,23 @@
 	worldType = "pvp"
 	protectionLevel = 8
 	pvpTileIgnoreLevelAndVocationProtection = true
-	pzLocked = 60 * 15
-	huntingDuration = 60 * 1000
+	pzLocked = 1000 * 60
+	huntingDuration = 1000 * 60
 	criticalHitChance = 20
 	criticalHitMultiplier = 1.05
 	displayCriticalHitNotify = true
 	removeWeaponAmmunition = true
 	removeWeaponCharges = true
 	removeRuneCharges = true
-	whiteSkullTime = 7 * 30 * 100
+	whiteSkullTime = 1000 * 60 * 15
 	noDamageToSameLookfeet = false
-	showHealingDamage = true
-	showHealingDamageForMonsters = true
+	showHealingDamage = false
+	showHealingDamageForMonsters = false
 	fieldOwnershipDuration = 5 * 1000
-	stopAttackingAtExit = false
+	stopAttackingAtExit = true
 	oldConditionAccuracy = false
 	loginProtectionPeriod = 10 * 1000
-	deathLostPercent = 4
+	deathLostPercent = 5
 	stairhopDelay = 1 * 1000
 	pushCreatureDelay = 2 * 1000
 	deathContainerId = 1987
@@ -77,11 +77,11 @@
 	retryTimeout = 5 * 1000
 	loginTimeout = 60 * 1000
 	maxPlayers = 1000
-	motd = "Honor and Chaos"
+	motd = "Welcome to Honor and Chaos"
 	displayOnOrOffAtCharlist = false
 	onePlayerOnlinePerAccount = false
 	allowClones = false
-	serverName = "Honor and Chaos"
+	serverName = "North America"
 	loginMessage = ""
 	statusTimeout = 5 * 60 * 1000
 	replaceKickOnLogin = true
@@ -93,7 +93,7 @@
 	sqlHost = "localhost"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = ""
+	sqlPass = "96875252Abc"
 	sqlDatabase = "hac"
 	sqlFile = ""
 	sqlKeepAlive = 0
@@ -109,7 +109,7 @@
 	ingameGuildManagement = true
 	levelToFormGuild = 8
 	premiumDaysToFormGuild = 0
-	guildNameMinLength = 4
+	guildNameMinLength = 3
 	guildNameMaxLength = 20
 
 	highscoreDisplayPlayers = 15
@@ -118,11 +118,11 @@
 	buyableAndSellableHouses = true
 	houseNeedPremium = true
 	bedsRequirePremium = true
-	levelToBuyHouse = 100
+	levelToBuyHouse = 8
 	housesPerAccount = 1
 	houseRentAsPrice = false
 	housePriceAsRent = false
-	housePriceEachSquare = 300
+	housePriceEachSquare = 200
 	houseRentPeriod = "never"
 	houseCleanOld = 0
 	guildHalls = false
@@ -148,7 +148,7 @@
 
 	formulaLevel = 1.0
 	formulaMagic = 1.0
-	bufferMutedOnSpellFailure = false
+	bufferMutedOnSpellFailure = true
 	spellNameInsteadOfWords = false
 	emoteSpells = false
 
@@ -162,7 +162,7 @@
 	bankSystem = true
 	displaySkillLevelOnAdvance = true
 	promptExceptionTracerErrorBox = true
-	separateViplistPerCharacter = false
+	separateViplistPerCharacter = true
 	maximumDoorLevel = 717217
 	maxMessageBuffer = 4
 
@@ -188,17 +188,17 @@
 	premiumForPromotion = true
 
 	blessingOnlyPremium = false
-	blessingReductionBase = 30
+	blessingReductionBase = 10
 	blessingReductionDecreament = 5
 	eachBlessReduction = 8
 
-	experienceStages = false
-	rateExperience = 10000
+	experienceStages = true
+	rateExperience = 30
 	rateExperienceFromPlayers = 1
-	rateSkill = 20.0
-	rateMagic = 20.0
-	rateLoot = 4.0
-	rateSpawn = 3.0
+	rateSkill = 30.0
+	rateMagic = 10.0
+	rateLoot = 3.0
+	rateSpawn = 2.0
 
 	rateMonsterHealth = 1.0
 	rateMonsterMana = 1.0
@@ -206,7 +206,7 @@
 	rateMonsterDefense = 1.0
 
 	minLevelThresholdForKilledPlayer = 50
-	maxLevelThresholdForKilledPlayer = 100000
+	maxLevelThresholdForKilledPlayer = 100
 
 	rateStaminaLoss = 1
 	rateStaminaGain = 3
@@ -233,7 +233,7 @@
 	deSpawnRange = 2
 	deSpawnRadius = 50
 
-	maxPlayerSummons = 3
+	maxPlayerSummons = 2
 	teleportAllSummons = false
 	teleportPlayerSummons = false
 
@@ -243,7 +243,7 @@
 	location = "United States"
 	displayGamemastersWithOnlineCommand = false
 
-	adminLogsEnabled = false
+	adminLogsEnabled = true
 	displayPlayersLogging = true
 	prefixChannelLogs = ""
 	runFile = ""

@@ -10,7 +10,6 @@
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
-	<event type="advance" name="Advance" event="script" value="Advance.lua"/>
 	<event type="death" name="summonDeath" script="summon_death.lua"/>
 	<event type="login" name="MutePlayer" event="script" value="mute_check.lua"/>
 	<event type="look" name="rebirth" event="script" value="rebirth.lua"/>
