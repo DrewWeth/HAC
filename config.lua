@@ -92,7 +92,7 @@
 	sqlType = "mysql"
 	sqlHost = "localhost"
 	sqlPort = 3306
-	sqlUser = "root"
+	sqlUser = "hac_user"
 	sqlPass = "96875252Abc"
 	sqlDatabase = "hac"
 	sqlFile = ""
