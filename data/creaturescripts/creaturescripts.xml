@@ -4,7 +4,6 @@
 
 	<event type="combat" name="partyAndGuildProtection" event="script" value="partyAndGuildProtection.lua"/>
 
-	<event type="login" name="Welcome" script="Welcome.lua"/>
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>

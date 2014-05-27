@@ -2076,7 +2076,7 @@
         <attribute key="weight" value="100" />
         <attribute key="slotType" value="ring" />
     </item>
-    <item id="2180" article="an" name="Teleport hole" />
+    <item id="2180" article="an" name="teleport hole" />
         <attribute key="description" value="You can see the other side through it." />
         <attribute key="type" value="teleport" />
     <item id="2181" article="a" name="terra rod">
@@ -2519,7 +2519,7 @@
         <attribute key="runeSpellName" value="adori frigo" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2272" article="a" name="Super UH">
+    <item id="2272" article="a" name="healing rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2273" article="an" name="ultimate healing rune">
@@ -2530,7 +2530,7 @@
         <attribute key="runeSpellName" value="adori mas frigo" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2276" article="a" name="first manarune">
+    <item id="2276" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2277" article="an" name="energy field rune">
@@ -2545,10 +2545,10 @@
         <attribute key="runeSpellName" value="adevo mas grav vis" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2284" article="a" name="Donation SD">
+    <item id="2284" article="a" name="strengthened death rune">
         <attribute key="weight" value="120" />
     </item>
-	<item id="2275" article="a" name="Donation Manarune">
+	<item id="2275" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2285" article="a" name="poison field rune">
@@ -2594,10 +2594,10 @@
         <attribute key="runeSpellName" value="adori san" />
         <attribute key="weight" value="120" />
     </item>
-    <item id="2296" article="a" name="Donation UH">
+    <item id="2296" article="a" name="supreme healing rune">
         <attribute key="weight" value="120" />
     </item>
-	<item id="10759" article="a" name="Danger Pot">
+	<item id="10759" article="a" name="danger Pot">
         <attribute key="weight" value="120" />
     </item>
 	<item id="10925" article="a" name="Blue pot">
@@ -2623,7 +2623,7 @@
         <attribute key="runeSpellName" value="adevo mas flam" />
         <attribute key="weight" value="120" />
     </item>
-    <item fromid="2306" toid="2307" article="a" name="Infinite ManaRune">
+    <item fromid="2306" toid="2307" article="a" name="spell rune">
         <attribute key="weight" value="120" />
     </item>
     <item id="2308" article="a" name="soulfire rune">
@@ -2977,6 +2977,7 @@
         <attribute key="attack" value="25" />
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="spear" />
+        <attribute key="breakChance" value="2" />
         <attribute key="range" value="3" />
     </item>
     <item id="2390" article="a" name="magic longsword">
@@ -7028,7 +7029,7 @@
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="huntingspear" />
         <attribute key="range" value="3" />
-        <attribute key="breakChance" value="6" />
+        <attribute key="breakChance" value="3" />
         <attribute key="ammoAction" value="moveback" />
     </item>
     <item id="3966" article="a" name="banana staff">
@@ -11877,13 +11878,13 @@
 	</item>
 	<item id="7735" article="the" name="power thrower">
         <attribute key="weight" value="200"/> 
-        <attribute key="attack" value="70"/> 
+        <attribute key="attack" value="50"/> 
 		<attribute key="attackspeed" value="500"/> 
         <attribute key="weaponType" value="distance"/> 
         <attribute key="shootType" value="etherealspear"/> 
 		<attribute key="HitChance" value="100" />
-		<attribute key="maxHitChance" value="20"/>
-        <attribute key="range" value="5"/> 
+		<attribute key="maxHitChance" value="10"/>
+        <attribute key="range" value="3"/> 
     </item> 
 <item id="7367" article="an" name="enchanted spear" plural="enchanted spears">
         <attribute key="weight" value="2000" />
@@ -11892,7 +11893,7 @@
         <attribute key="weaponType" value="distance" />
         <attribute key="shootType" value="enchantedspear" />
         <attribute key="range" value="4" />
-        <attribute key="breakchance" value="2"/>
+        <attribute key="breakchance" value="1"/>
     </item>
     <item id="7368" article="an" name="assassin star" plural="assassin stars">
         <attribute key="weight" value="200" />

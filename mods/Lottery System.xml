@@ -3,7 +3,7 @@
 		config = {
 			lottery_hour = "1 Hours", -- Time to next lottery (only for broadcast message, real time you can set on globalevents.xml)
 			rewards_id = {2160, 2160, 2160, 2160}, -- Rewards ID
-			crystal_counts = 100, -- Used only if on rewards_id is crystal coin (ID: 2160).
+			crystal_counts = 1, -- Used only if on rewards_id is crystal coin (ID: 2160).
 			website = "yes" -- Only if you have php scripts and table `lottery` in your database!
 		}
 	]]></config>

@@ -1,11 +1,11 @@
 	accountManager = false
 	namelockManager = true 
-	newPlayerChooseVoc = true
-	newPlayerSpawnPosX = 1223
-	newPlayerSpawnPosY = 1081
-	newPlayerSpawnPosZ = 7
-	newPlayerTownId = 1
-	newPlayerLevel = 1
+	newPlayerChooseVoc = false
+	newPlayerSpawnPosX = 1247
+	newPlayerSpawnPosY = 1754
+	newPlayerSpawnPosZ = 6
+	newPlayerTownId = 8
+	newPlayerLevel = 0
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
 
@@ -193,12 +193,12 @@
 	eachBlessReduction = 8
 
 	experienceStages = true
-	rateExperience = 30
-	rateExperienceFromPlayers = 1
+	rateExperience = 30.0
+	rateExperienceFromPlayers = 1.0
 	rateSkill = 30.0
 	rateMagic = 10.0
 	rateLoot = 3.0
-	rateSpawn = 2.0
+	rateSpawn = 3.0
 
 	rateMonsterHealth = 1.0
 	rateMonsterMana = 1.0

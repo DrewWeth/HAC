@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
-
 <globalevent name="clean" interval="7200" script="clean.lua"/>
 <globalevent name="Outffitleverpopup" interval="-1" script="Outfitleverpopup.lua"/>
 <globalevent name="dbclean" type="start" event="script" value="dbclean.lua"/> 
 <globalevent name="checkvip" interval="86400000" script="removevipdays.lua"/>
 <globalevent name="removevip" interval="36000000" script="removevip.lua"/>
-	<globalevent name="Texto" interval="0" script="texto.lua"/>
-	<globalevent name="texto-rebirth" interval="0" script="texto-rebirth.lua"/>
-	<globalevent name="texto-events" interval="0" script="texto-events.lua"/>
-	<globalevent name="texto-cities" interval="0" script="texto-cities.lua"/>
-	<globalevent name="texto-Vip" interval="0" script="texto-Vip.lua"/>
-	<globalevent name="texto-pets" interval="0" script="texto-pets.lua"/>
-	<globalevent name="texto-others" interval="0" script="texto-others.lua"/>
-	<!-- disabled <globalevent name="shop" interval="30" script="shop.lua"/> -->
-	<globalevent name="Vip" interval="2" script="Vipeffect.lua"/>
-	<globalevent name="cleanhouses" interval="43200000" event="script" value="cleanhouses.lua"/>
-		<globalevent name="ZombieGlobalThink" interval="5" event="script" value="zombie/onthink.lua"/>
-		<globalevent name="ZombieGlobalStartup" type="start" event="script" value="zombie/onstartup.lua"/>
-			<globalevent name="arena" interval="10" event="script" value="arena.lua"/>
+<globalevent name="Texto" interval="0" script="texto.lua"/>
+<globalevent name="texto-rebirth" interval="0" script="texto-rebirth.lua"/>
+<globalevent name="texto-events" interval="0" script="texto-events.lua"/>
+<globalevent name="texto-cities" interval="0" script="texto-cities.lua"/>
+<globalevent name="texto-Vip" interval="0" script="texto-Vip.lua"/>
+<globalevent name="texto-pets" interval="0" script="texto-pets.lua"/>
+<globalevent name="texto-others" interval="0" script="texto-others.lua"/>
+<!-- disabled <globalevent name="shop" interval="30" script="shop.lua"/> -->
+<globalevent name="Vip" interval="2" script="Vipeffect.lua"/>
+<globalevent name="cleanhouses" interval="43200000" event="script" value="cleanhouses.lua"/>
+<globalevent name="ZombieGlobalThink" interval="5" event="script" value="zombie/onthink.lua"/>
+<globalevent name="ZombieGlobalStartup" type="start" event="script" value="zombie/onstartup.lua"/>
+<globalevent name="arena" interval="10" event="script" value="arena.lua"/>
 </globalevents>
-

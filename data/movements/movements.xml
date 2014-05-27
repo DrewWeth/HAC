@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
-	
-	
 	<movevent type="StepIn" itemid="6299" event="script" value="landmine.lua"/>
-	
 	<movevent itemid="8752" slot="ring" type="Equip"   event="buffer" value=" 
     local rates = getPlayerRates(cid) 
     return doPlayerSetRate(cid, SKILL__LEVEL, rates[SKILL__LEVEL] + 5/2) "/> 
 	<movevent itemid="8752" slot="ring" type="DeEquip" event="buffer" value=" 
     local rates = getPlayerRates(cid) 
     return doPlayerSetRate(cid, SKILL__LEVEL, rates[SKILL__LEVEL] - 5) "/> 
-	
-	
 	<movevent type="StepIn" actionid="5555" event="script" value="zombie/onenter.lua"/>
 	<!-- Bomberman -->
 	<movevent type="StepIn" itemid="10764" event="script" value="bombtiles.lua"/>
@@ -22,21 +17,17 @@
 
 	<!-- Rebirth -->
     <movevent type="StepIn" actionid="9866" event="script" value="Reborntile/reborntile10.lua"/>
-	    <movevent type="StepIn" actionid="9867" event="script" value="Reborntile/reborntile20.lua"/>
-		    <movevent type="StepIn" actionid="9868" event="script" value="Reborntile/reborntile30.lua"/>
-			    <movevent type="StepIn" actionid="9869" event="script" value="Reborntile/reborntile40.lua"/>
-				    <movevent type="StepIn" actionid="9870" event="script" value="Reborntile/reborntile50.lua"/>
-					    <movevent type="StepIn" actionid="9871" event="script" value="Reborntile/reborntile60.lua"/>
-						    <movevent type="StepIn" actionid="9872" event="script" value="Reborntile/reborntile70.lua"/>
-							    <movevent type="StepIn" actionid="9873" event="script" value="Reborntile/reborntile80.lua"/>
-								    <movevent type="StepIn" actionid="9874" event="script" value="Reborntile/reborntile90.lua"/>
-									    <movevent type="StepIn" actionid="9875" event="script" value="Reborntile/reborntile100.lua"/>
-										    <movevent type="StepIn" actionid="9876" event="script" value="Reborntile/reborntile110.lua"/>
-											    <movevent type="StepIn" actionid="9877" event="script" value="Reborntile/reborntile120.lua"/>
-											
-
-								
-			
+	<movevent type="StepIn" actionid="9867" event="script" value="Reborntile/reborntile20.lua"/>
+	<movevent type="StepIn" actionid="9868" event="script" value="Reborntile/reborntile30.lua"/>
+	<movevent type="StepIn" actionid="9869" event="script" value="Reborntile/reborntile40.lua"/>
+	<movevent type="StepIn" actionid="9870" event="script" value="Reborntile/reborntile50.lua"/>
+	<movevent type="StepIn" actionid="9871" event="script" value="Reborntile/reborntile60.lua"/>
+	<movevent type="StepIn" actionid="9872" event="script" value="Reborntile/reborntile70.lua"/>
+	<movevent type="StepIn" actionid="9873" event="script" value="Reborntile/reborntile80.lua"/>
+	<movevent type="StepIn" actionid="9874" event="script" value="Reborntile/reborntile90.lua"/>
+	<movevent type="StepIn" actionid="9875" event="script" value="Reborntile/reborntile100.lua"/>
+	<movevent type="StepIn" actionid="9876" event="script" value="Reborntile/reborntile110.lua"/>
+	<movevent type="StepIn" actionid="9877" event="script" value="Reborntile/reborntile120.lua"/>
 
 	<!-- Transforming ring -->
    	<movevent type="Equip" itemid="7697" slot="ring" function="onEquipItem"/>

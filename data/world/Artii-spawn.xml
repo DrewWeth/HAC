@@ -1231,9 +1231,8 @@
   <spawn centerx="1838" centery="1131" centerz="5" radius="20">
     <monster name="Grim Reaper" x="10" y="4" z="5" spawntime="60"/>
   </spawn>
-  <spawn centerx="1297" centery="1150" centerz="5" radius="5">
-    <monster name="Pirate Marauder" x="2" y="-1" z="5" spawntime="60"/>
-    <monster name="Pirate Marauder" x="0" y="2" z="5" spawntime="60"/>
+  <spawn centerx="1299" centery="1151" centerz="5" radius="5">
+    <npc name="Captain Mike" x="0" y="-3" z="5" spawntime="30"/>
   </spawn>
   <spawn centerx="1486" centery="1181" centerz="5" radius="10">
     <monster name="Wyvern" x="-9" y="-5" z="5" spawntime="60"/>
@@ -2228,6 +2227,12 @@
     <monster name="Dragon Lord" x="13" y="-7" z="6" spawntime="60"/>
     <monster name="Dragon Lord" x="18" y="13" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="1318" centery="1752" centerz="6" radius="5"/>
+  <spawn centerx="1246" centery="1753" centerz="6" radius="5">
+    <npc name="Joseph" x="1" y="-2" z="6" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1315" centery="1753" centerz="6" radius="5"/>
+  <spawn centerx="1318" centery="1758" centerz="6" radius="5"/>
   <spawn centerx="1654" centery="342" centerz="7" radius="30">
     <monster name="Quara Mantassin Scout" x="-18" y="-15" z="7" spawntime="60"/>
     <monster name="Quara Hydromancer Scout" x="-14" y="-13" z="7" spawntime="60"/>
@@ -4867,10 +4872,7 @@
     <monster name="Wolf" x="-6" y="-7" z="7" spawntime="60"/>
     <monster name="Wolf" x="6" y="6" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1287" centery="1149" centerz="7" radius="5">
-    <monster name="Pirate Corsair" x="-1" y="2" z="7" spawntime="60"/>
-    <monster name="Pirate Corsair" x="5" y="3" z="7" spawntime="60"/>
-  </spawn>
+  <spawn centerx="1287" centery="1149" centerz="7" radius="5"/>
   <spawn centerx="1295" centery="1149" centerz="7" radius="5"/>
   <spawn centerx="1200" centery="1150" centerz="7" radius="5">
     <monster name="Deer" x="-1" y="5" z="7" spawntime="60"/>
@@ -6011,6 +6013,10 @@
   <spawn centerx="1554" centery="1431" centerz="8" radius="20">
     <monster name="Dragon" x="8" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1262" centery="1807" centerz="8" radius="5">
+    <monster name="Cave Rat" x="-4" y="0" z="8" spawntime="30"/>
+    <monster name="Rat" x="5" y="0" z="8" spawntime="30"/>
+  </spawn>
   <spawn centerx="1481" centery="495" centerz="9" radius="30"/>
   <spawn centerx="1389" centery="500" centerz="9" radius="30"/>
   <spawn centerx="1437" centery="504" centerz="9" radius="30"/>
@@ -6338,6 +6344,15 @@
   </spawn>
   <spawn centerx="1554" centery="1436" centerz="9" radius="20">
     <monster name="Dragon Lord" x="8" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1261" centery="1795" centerz="9" radius="5">
+    <monster name="Rat" x="-1" y="0" z="9" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1253" centery="1804" centerz="9" radius="5">
+    <monster name="Rat" x="0" y="2" z="9" spawntime="30"/>
+  </spawn>
+  <spawn centerx="1263" centery="1806" centerz="9" radius="5">
+    <monster name="Rat" x="-1" y="-1" z="9" spawntime="30"/>
   </spawn>
   <spawn centerx="1281" centery="514" centerz="10" radius="30">
     <monster name="Warlock" x="3" y="29" z="10" spawntime="60"/>
