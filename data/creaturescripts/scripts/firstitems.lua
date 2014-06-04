@@ -1,9 +1,13 @@
 function onLogin(cid)
-	local storage = 30055 -- storage value
-	
+	local storage = 30054 -- storage value
+
 	if (getPlayerStorageValue(cid, storage) != 1) then
 		setPlayerStorageValue(cid, storage, 1)
 		-- Common for all
+
+	if getCreatureStorage(cid, storage) < 0 then
+		setPlayerStorageValue(cid, storage, 1)
+		doPlayerAddItem(cid, 1988, 1, FALSE)
 		doPlayerAddItem(cid, 2148, 65, FALSE) -- gold
 		doPlayerAddItem(cid, 12427, 1, FALSE) -- death scroll
 		doPlayerAddItem(cid, 2674, 10, FALSE) -- apples 

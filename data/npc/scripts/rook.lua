@@ -117,18 +117,16 @@ function giveItems(cid)
 		end
 		
 		-- Common for all
-		doPlayerAddItem(cid, 2152, 20, FALSE) -- 20 plat coins
 		doPlayerAddItem(cid, 2789, 5, FALSE)
-		
+		doPlayerAddItem(cid, 7618, 10, FALSE)
 	end
 	return true
 end
  
 function onCreatureSay(cid, type, msg)
 	rebirthLevel = 8
-	choice = 1
 	if((msg == "hi" or msg == "hello" or msg == "hey")  and not (isFocused(cid))) then
-		selfSay("Welcome, ".. getCreatureName(cid) ..", to the tutorial island! You may {leave} here forever at level 6 by talking to me. If you stay past ", cid, true)
+		selfSay("Welcome, ".. getCreatureName(cid) ..", to the tutorial island! You may {leave} here forever at level 8 by talking to me. If you stay past ", cid, true)
 		addFocus(cid)
 		status = 1
 	elseif((isFocused(cid)) and (msg == "leave") and (status == 1)) then
@@ -197,9 +195,10 @@ function doRebirthPlayer(cid, voc)
 	if (cid == nil) then
 		return true
 	end
+	local pos1 = {x=1298,y=1150,z=5}
 	doPlayerSetVocation(cid,voc)
 	doPlayerSetTown(cid,1)
-	doTeleportThing(cid, 1298,1150,5)
+	doTeleportThing(cid, pos1, FALSE)
 	giveItems(cid)
 	return true
 end

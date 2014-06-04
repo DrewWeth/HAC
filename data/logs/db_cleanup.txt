@@ -72,3 +72,5 @@
 [29 May 2013 10:22:49 ] >> [DBCLEANUP] 1 inactive players have been deleted from database.
 [27 August 2013 20:17:55 ] >> [DBCLEANUP] 4 inactive players have been deleted from database.
 [27 August 2013 20:36:24 ] >> [DBCLEANUP] 1 inactive players have been deleted from database.
+[27 May 2014 23:21:25 ] >> [DBCLEANUP] 3 inactive players have been deleted from database.
+[29 May 2014 03:14:28 ] >> [DBCLEANUP] 1 inactive players have been deleted from database.
