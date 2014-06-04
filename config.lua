@@ -92,8 +92,8 @@
 	sqlType = "mysql"
 	sqlHost = "localhost"
 	sqlPort = 3306
-	sqlUser = "hac_user"
-	sqlPass = "96875252Abc"
+	sqlUser = "root"
+	sqlPass = ""
 	sqlDatabase = "hac"
 	sqlFile = ""
 	sqlKeepAlive = 0
@@ -148,7 +148,7 @@
 
 	formulaLevel = 1.0
 	formulaMagic = 1.0
-	bufferMutedOnSpellFailure = true
+	bufferMutedOnSpellFailure = false
 	spellNameInsteadOfWords = false
 	emoteSpells = false
 
