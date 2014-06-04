@@ -5,7 +5,7 @@
 	newPlayerSpawnPosY = 1754
 	newPlayerSpawnPosZ = 6
 	newPlayerTownId = 8
-	newPlayerLevel = 0
+	newPlayerLevel = 1
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
 
@@ -148,7 +148,7 @@
 
 	formulaLevel = 1.0
 	formulaMagic = 1.0
-	bufferMutedOnSpellFailure = true
+	bufferMutedOnSpellFailure = false
 	spellNameInsteadOfWords = false
 	emoteSpells = false
 

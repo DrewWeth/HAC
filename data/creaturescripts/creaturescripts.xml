@@ -26,6 +26,6 @@
 	<event type="preparedeath" name="charge amulet" event="script" value="charge amulet.lua"/>
 	<event type="login" name="Outfita" event="script" value="outfit.lua"/>
 	<event type="death" name="Portal" event="script" value="dprune.lua" />
-	<event type="login" name="firstItems" event="script" value="firstitems.lua"/>
+	<event type="login" name="firstitems" event="script" value="firstitems.lua"/>
 	
 </creaturescripts>

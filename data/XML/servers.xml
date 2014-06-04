@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <servers>
-	<server id="0" name="Real Tibia" versionMin="853" versionMax="853" address="realtibia.servegame.com" port="7173"/>
-	<server id="1" name="GalaxyOTs" versionMin="710" versionMax="857" address="galaxyot.hopto.org" port="7171"/>
+	<server id="0" name="Honor and Chaos" versionMin="853" versionMax="860" address="honorandchaos.com" port="7172"/>
+
 </servers>

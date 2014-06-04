@@ -49,8 +49,10 @@ function onCreatureSay(cid, type, msg)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Make haste! Save yourself!!", cid, true)
 		removeFocus(cid)
+	end
 end
  
+
 function onPlayerCloseChannel(cid)
 	if(isFocused(cid)) then
 		selfSay("Run!")

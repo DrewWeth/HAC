@@ -51,6 +51,6 @@ function onLogin(cid)
 	registerCreatureEvent(cid, "skull amulet")
 	registerCreatureEvent(cid, "charge amulet")
 	registerCreatureEvent(cid, "showKD")
-	registerCreatureEvent(cid, "firstItems")
+	registerCreatureEvent(cid, "firstitems")
 	return true
 end
