@@ -74,7 +74,7 @@ function giveItems(cid)
 			2175, -- norse shield
 			2643, -- leather boots
 			1988, -- backpack
-			2412, -- Katana
+			8602, -- jagged sword
 		}
 	
 	if getPlayerStorageValue(cid, storage) == -1 then
@@ -107,7 +107,7 @@ function giveItems(cid)
 				doPlayerAddItem(cid, pallyItems[i], 1, FALSE)
 			end
 			-- 8 arrows
-			doPlayerAddItem(cid, 2544, 10, FALSE)
+			doPlayerAddItem(cid, 2389, 5, FALSE)
 		
 		elseif getPlayerVocation(cid) == 4 then
 			-- Knight
@@ -118,7 +118,8 @@ function giveItems(cid)
 		
 		-- Common for all
 		doPlayerAddItem(cid, 2789, 5, FALSE)
-		doPlayerAddItem(cid, 7618, 10, FALSE)
+		doPlayerAddItem(cid, 2152, 10, FALSE)
+		doPlayerAddItem(cid, 7618, 15, FALSE)
 	end
 	return true
 end
@@ -126,7 +127,8 @@ end
 function onCreatureSay(cid, type, msg)
 	rebirthLevel = 8
 	if((msg == "hi" or msg == "hello" or msg == "hey")  and not (isFocused(cid))) then
-		selfSay("Welcome, ".. getCreatureName(cid) ..", to the tutorial island! You may {leave} here forever at level 8 by talking to me. If you stay past ", cid, true)
+		selfSay("Hello.", cid);
+		selfSay("Welcome, ".. getCreatureName(cid) ..", to the tutorial island! You may {leave} here forever at level 8 by talking to me. If you stay past ", cid)
 		addFocus(cid)
 		status = 1
 	elseif((isFocused(cid)) and (msg == "leave") and (status == 1)) then

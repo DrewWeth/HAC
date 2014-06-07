@@ -17006,7 +17006,7 @@
         <attribute key="weight" value="500" />
     </item>
     <item id="11113" name="boots of accuracy">
-        <attribute key="armor" value="5" />
+        <attribute key="armor" value="4" />
 		<attribute key="speed" value="50" />
 		<attribute key="skilldist" value="5" />
         <attribute key="slotType" value="feet" />

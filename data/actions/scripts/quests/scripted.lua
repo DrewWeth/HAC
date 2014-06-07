@@ -139,9 +139,50 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerAddItem(cid,2497,1)
 			setPlayerStorageValue(cid,60062,1)
 		else
-			doPlayerSendTextMessage(cid,25,"The pile of bones is empty.")
+			doPlayerSendTextMessage(cid,25,"This body is empty.")
 		end
-	
+
+	elseif item.uid == 25170 then
+		if getPlayerStorageValue(cid,25170) == -1 then
+			doPlayerSendTextMessage(cid,25,"You have found a shield of honour.")
+			doPlayerAddItem(cid,2517,1)
+			setPlayerStorageValue(cid,25170,1)
+		else
+			doPlayerSendTextMessage(cid,25,"This is empty.")
+		end	
+	elseif item.uid == 25171 then
+		if getPlayerStorageValue(cid,25171) == -1 then
+			doPlayerSendTextMessage(cid,25,"You have found some money.")
+			doPlayerAddItem(cid,2152,20)
+			setPlayerStorageValue(cid,25171,1)
+		else
+			doPlayerSendTextMessage(cid,25,"This is empty.")
+		end	
+	elseif item.uid == 25172 then
+		if getPlayerStorageValue(cid,25172) == -1 then
+			doPlayerSendTextMessage(cid,25,"You have found some money.")
+			doPlayerAddItem(cid,2152,15)
+			setPlayerStorageValue(cid,25172,1)
+		else
+			doPlayerSendTextMessage(cid,25,"This is empty.")
+		end		
+	elseif item.uid == 25173 then
+		if getPlayerStorageValue(cid,25173) == -1 then
+			doPlayerSendTextMessage(cid,25,"You have found a katana.")
+			doPlayerAddItem(cid,2412,15) -- kanata
+			setPlayerStorageValue(cid,25173,1)
+		else
+			doPlayerSendTextMessage(cid,25,"This is empty.")
+		end		
+	elseif item.uid == 25174 then
+		if getPlayerStorageValue(cid,25174) == -1 then
+			doPlayerSendTextMessage(cid,25,"You have found scale armor.")
+			doPlayerAddItem(cid,2483,15) -- scale armor
+			setPlayerStorageValue(cid,25174,1)
+		else
+			doPlayerSendTextMessage(cid,25,"This is empty.")
+		end		
+
 	end
 	return TRUE
 end

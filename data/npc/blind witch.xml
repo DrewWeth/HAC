@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blind Witch" script="data/npc/scripts/creatureproducts.lua" walkinterval="1000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="157" head="114" body="114" legs="114" feet="94" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Who's There?!! I collect herbs and creature products, do you have any for me to buy?"/>
+		<parameter key="message_needmoremoney" value="come back when you get more money."/>
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+	</parameters>
+</npc>

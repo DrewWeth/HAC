@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Salesman" script="default.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="128" head="20" body="100" legs="50" feet="99" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Whats up |PLAYERNAME|? You might find these things useful. I'll {trade}"/>
+		<parameter key="shop_buyable" value="torch,2050,5;small health potion,8704,35;rope,2120,20;light shovel,5710,20;spear,2389,10;ham,2671,5"/>
+		<parameter key="shop_sellable" value="ham,2671,5;meat,2666,5"/>
+	</parameters>
+</npc>

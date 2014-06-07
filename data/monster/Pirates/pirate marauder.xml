@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Pirate Marauder" nameDescription="a pirate marauder" race="blood" experience="125" speed="230" manacost="490">
-	<health now="210" max="210"/>
+	<health now="110" max="110"/>
 	<look type="93" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -19,8 +19,8 @@
 		<flag runonhealth="25"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="60" attack="40"/>
-		<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-40">
+		<attack name="melee" interval="2000" skill="20" attack="20"/>
+		<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-5">
 			<attribute key="shootEffect" value="spear"/>
 		</attack>
 	</attacks>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" race="blood" experience="250" speed="230" manacost="595">
-	<health now="425" max="425"/>
+	<health now="225" max="225"/>
 	<look type="97" corpse="6080"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,8 +18,8 @@
 		<flag runonhealth="50"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="30" attack="80"/>
-		<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-100">
+		<attack name="melee" interval="2000" skill="22" attack="20"/>
+		<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-5">
 			<attribute key="shootEffect" value="throwingknife"/>
 		</attack>
 	</attacks>

@@ -363,7 +363,7 @@
 	</instant>
 
 	<!-- Conjure Spells -->
-	<conjure name="Conjure Arrow" words="exevo con" lvl="13" mana="20" soul="1" conjureId="2544" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
+	<conjure name="Conjure Arrow" words="exevo con" lvl="8" mana="40" soul="1" conjureId="2544" conjureCount="20" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
 		<vocation id="3"/>
 		<vocation id="7"/>
 	</conjure>

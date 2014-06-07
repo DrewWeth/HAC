@@ -327,7 +327,14 @@
 	<movevent type="Equip" itemid="7457" slot="feet" event="function" value="onEquipItem"/>
 	<movevent type="DeEquip" itemid="7457" slot="feet" event="function" value="onDeEquipItem"/>
 	<movevent type="Equip" itemid="7886" slot="feet" event="function" value="onEquipItem">
-
+	<movevent type="Equip" itemid="11113" slot="feet" level="80" event="function" value="onEquipItem">
+		<vocation id="3"/>
+		<vocation id="7" showInDescription="1"/>
+	</movement>
+	<movevent type="DeEquip" itemid="11113" slot="feet" level="80" event="function" value="onDeEquipItem">
+		<vocation id="3"/>
+		<vocation id="7" showInDescription="1"/>
+	</movement>
 		 
 		
 	</movevent>

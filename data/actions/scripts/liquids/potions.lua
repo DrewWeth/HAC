@@ -1,8 +1,8 @@
 local config = {
-	removeOnUse = "no",
+	removeOnUse = "yes",
 	usableOnTarget = "yes", -- can be used on target? (fe. healing friend)
-	splashable = "no",
-	realAnimation = "no", -- make text effect visible only for players in range 1x1
+	splashable = "yes",
+	realAnimation = "yes", -- make text effect visible only for players in range 1x1
 	healthMultiplier = 1.0,
 	manaMultiplier = 1.0
 }
@@ -23,7 +23,7 @@ local POTIONS = {
 	[7589] = {empty = 7634, splash = 7, mana = {110, 190}, level = 50, vocations = {1, 2, 5, 6}, vocStr = "sorcerers, druids and paladins"}, -- strong mana potion
 	[7590] = {empty = 7635, splash = 7, mana = {200, 300}, level = 80, vocations = {1, 2, 5, 6}, vocStr = "sorcerers and druids"}, -- great mana potion
 
-	[8472] = {empty = 7635, splash = 3, health = {300, 450}, mana = {0, 10}, level = 80, vocations = {3, 7}, vocStr = "paladins"} -- great spirit potion
+	[8472] = {empty = 7635, splash = 3, health = {300, 450}, mana = {8, 15}, level = 80, vocations = {3, 7}, vocStr = "paladins"} -- great spirit potion
 }
 
 local exhaust = createConditionObject(CONDITION_EXHAUST)
