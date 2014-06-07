@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Bowman" nameDescription="a bowman" race="blood" experience="165" speed="270" manacost="200">
-  <health now="430" max="430"/>
+  <health now="530" max="530"/>
   <look type="57" head="0" body="0" legs="0" feet="0" corpse="3128"/>
   <targetchange/>
   <strategy attack="100" defense="0"/>
@@ -19,9 +19,12 @@
     <flag runonhealth="0"/>
   </flags>
   <attacks>
- <attack name="stone shower" interval="3500" chance="65" min="-25" max="-85"/>
- <attack name="Avalanche" interval="4000" chance="33" min="89" max="-280"/> </attacks>
-  <defenses armor="45" defense="60"/>
+    <attack name="melee" interval="2000" skill="20" attack="15"/>
+    <attack name="physical" interval="1200" chance="90" range="7" skill="70" attack="50">
+      <attribute key="shootEffect" value="powerbolt"/>
+    </attack>
+  </attacks>
+ <defenses armor="45" defense="60"/>
   <immunities>
     <immunity physical="0"/>
     <immunity energy="0"/>
