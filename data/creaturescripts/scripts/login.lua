@@ -35,7 +35,7 @@ function onLogin(cid)
 	end
 
 	if(getPlayerVocation(cid) == 0) then
-		doPlayerSetRate(cid, SKILL__LEVEL, 37)
+		doPlayerSetRate(cid, SKILL__LEVEL, 1)
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Honor and Chaos")
 	end
 
