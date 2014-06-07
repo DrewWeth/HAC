@@ -42,7 +42,7 @@ end
 function onCreatureSay(cid, type, msg)
 	choice = 1
 	if((msg == "hi" or msg == "hello" or msg == "hey")  and not (isFocused(cid))) then
-		selfSay("Save yourself".. getCreatureName(cid) .."!! {Run north} until you find the depot. This port has been overun by bandits. We didn't see them from off shore!", cid, true)
+		selfSay("Save yourself".. getCreatureName(cid) .."!! {Run north} until you find the depot. This port has been overun by bandits. We didn't see them from off shore!", cid)
 		addFocus(cid)
 		status = 1
 	

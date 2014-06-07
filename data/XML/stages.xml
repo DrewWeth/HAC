@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stages>
 	<world id="0" multiplier="1">
-		<stage minlevel="0" maxlevel="7" multiplier="50"/>
+		<stage minlevel="0" maxlevel="7" multiplier="30"/>
 		<stage minlevel="8" maxlevel="29" multiplier="55"/>
 		<stage minlevel="30" maxlevel="49" multiplier="50"/>
 		<stage minlevel="50" maxlevel="74" multiplier="40"/>

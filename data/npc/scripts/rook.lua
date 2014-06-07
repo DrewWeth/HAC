@@ -201,6 +201,7 @@ function doRebirthPlayer(cid, voc)
 	doPlayerSetTown(cid,1)
 	doTeleportThing(cid, pos1, FALSE)
 	giveItems(cid)
+	doRemoveCreature(cid)
 	return true
 end
 

@@ -34,6 +34,11 @@ function onLogin(cid)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
 	end
 
+	if(isRookie(cid)) then
+		doPlayerSetRate(cid, SKILL__LEVEL, 30)
+	end
+
+
 	registerCreatureEvent(cid, "Mail")
 	registerCreatureEvent(cid, "GuildMotd")
     registerCreatureEvent(cid, "rebirth")
