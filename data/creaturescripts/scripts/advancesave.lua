@@ -13,6 +13,11 @@ function onAdvance(cid, skill, oldLevel, newLevel)
 		doPlayerAddSkillTry(cid, 1, 1)
 		doPlayerAddSkillTry(cid, 2, 1)
 	end
+
+	if(getPlayerVocation(cid) == 0) then
+		doPlayerSetRate(cid, SKILL__LEVEL, 37)
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Honor and Chaos")
+	end
 	
 	if(config.savePlayersOnAdvance) then
 		doPlayerSave(cid, true)
