@@ -4591,6 +4591,9 @@
     <monster name="Orc Rider" x="-9" y="9" z="7" spawntime="60"/>
     <monster name="Wolf" x="-1" y="9" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="1286" centery="1087" centerz="7" radius="5">
+    <npc name="Guide" x="1" y="-1" z="7" spawntime="50"/>
+  </spawn>
   <spawn centerx="1041" centery="1088" centerz="7" radius="5">
     <monster name="Wolf" x="1" y="-3" z="7" spawntime="60"/>
   </spawn>
