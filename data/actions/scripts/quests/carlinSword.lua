@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
-var item = 2395 -- carlin sword
+local item = 2395
 	if item.uid == 60645 then
-		if getPlayerStorageValue(cid,item) != 1 then
+		if getPlayerStorageValue(cid,item) ~= 1 then
 			local bp = doPlayerAddItem(cid,1987,1)
 			doAddContainerItem(bp,item,1) 
 			setPlayerStorageValue(cid,item,1)
