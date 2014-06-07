@@ -127,7 +127,6 @@ end
 function onCreatureSay(cid, type, msg)
 	rebirthLevel = 8
 	if((msg == "hi" or msg == "hello" or msg == "hey")  and not (isFocused(cid))) then
-		selfSay("Hello.", cid);
 		selfSay("Welcome, ".. getCreatureName(cid) ..", to the tutorial island! You may {leave} here forever at level 8 by talking to me. If you stay past ", cid)
 		addFocus(cid)
 		status = 1
