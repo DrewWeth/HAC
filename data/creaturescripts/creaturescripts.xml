@@ -16,7 +16,7 @@
 	<event type="outfit" name="OutfitEffects" event="script" value="outfiteffect.lua"/>
 	<event type="login" name="Welcoem" script="loginmassage.lua"/>
 	<event type="logout" name="Goodbye" script="logoutmassage.lua"/>
-	<event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+	<!-- <event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/> -->
 	<!-- <event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/> -->
 	<!-- <event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/> -->
 	<!-- <event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/> -->
