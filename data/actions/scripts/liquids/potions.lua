@@ -84,7 +84,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 
 	doAddCondition(cid, exhaust)
 	if(not potion.empty or config.removeOnUse) then
-		doRemoveItem(item.uid)
+		doRemoveItem(item.uid, 1)
 		return true
 	end
 

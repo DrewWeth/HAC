@@ -17,15 +17,11 @@
 <action uniqueid="60062" event="script" value="quests/crusader.lua"/>
 
 <action uniqueid="2430;2392;2476" event="script" value="quests/orcfort.lua"/>
-<action uniqueid="60035;60036;60037;60038;60039;60040;60044;60045;60046;60052;60053;60056;60060;60061;60062;25170;25171;25172;25173;25174" event="script" value="quests/scripted.lua"/>
+<action uniqueid="60035;60036;60037;60038;60039;60040;60044;60045;60046;60052;60053;60056;60061;25170;25171;25172;25173;25174" event="script" value="quests/scripted.lua"/>
 <action uniqueid="6132" event="script" value="quests/soft boots.lua"/>
 <action uniqueid="50019" event="script" value="quests/vampire shield.lua"/>
 <action uniqueid="10003" event="script" value="quests/vampshield.lua"/>
 <action uniqueid="10005" event="script" value="quests/yalalegs.lua"/>
-<action uniqueid="" event="script" value="quests/.lua"/>
-
-
-
 
 <action uniqueid="60066" event="script" value="quests/necroquest.lua"/>
 <action uniqueid="10006" event="script" value="quests/royalcrossbow.lua"/>
