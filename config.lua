@@ -1,11 +1,11 @@
 	accountManager = false
-	namelockManager = true 
-	newPlayerChooseVoc = false
-	newPlayerSpawnPosX = 1247
-	newPlayerSpawnPosY = 1754
-	newPlayerSpawnPosZ = 6
-	newPlayerTownId = 8
-	newPlayerLevel = 1
+	namelockManager = true
+	newPlayerChooseVoc = true
+	newPlayerSpawnPosX = 1298
+	newPlayerSpawnPosY = 1150
+	newPlayerSpawnPosZ = 5
+	newPlayerTownId = 1
+	newPlayerLevel = 8
 	newPlayerMagicLevel = 0
 	generateAccountNumber = false
 
