@@ -18,12 +18,12 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="75" attack="40" poison="80"/>
-		<attack name="fire" interval="200" chance="25" range="1" radius="1" target="1" min="-0" max="-95">
+		<attack name="melee" interval="2000" skill="25" attack="30" poison="10"/>
+		<attack name="fire" interval="200" chance="25" range="1" radius="1" target="1" min="-0" max="-35">
 			<attribute key="areaEffect" value="explosion"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="23"/>
+	<defenses armor="25" defense="15"/>
 	<elements>
 		<element earthPercent="10"/>
 		<element holyPercent="20"/>

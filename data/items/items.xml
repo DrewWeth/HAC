@@ -8286,7 +8286,7 @@
     </item>
     <item id="5462" name="pirate boots">
         <attribute key="weight" value="800" />
-        <attribute key="armor" value="300" />
+        <attribute key="armor" value="2" />
         <attribute key="slotType" value="feet" />
     </item>
     <item id="5463" article="a" name="sugar cane">
@@ -9007,7 +9007,7 @@
     </item>
     <item id="5918" name="pirate legs">
         <attribute key="weight" value="1200" />
-        <attribute key="armor" value="300" />
+        <attribute key="armor" value="3" />
         <attribute key="slotType" value="legs" />
     </item>
     <item id="5919" article="a" name="dragon claw">
@@ -10024,7 +10024,7 @@
     <item id="6094" article="a" name="tree" />
     <item id="6095" article="a" name="pirate armor">
         <attribute key="weight" value="2000" />
-        <attribute key="armor" value="300" />
+        <attribute key="armor" value="13" />
         <attribute key="slotType" value="body" />
     </item>
     <item id="6096" article="a" name="pirate helmet">
@@ -15068,39 +15068,39 @@
         <attribute key="defense" value="12" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="8905" article="a" name="Glowing shield">
+    <item id="8905" article="a" name="elemental shield">
 		<attribute key="description" value="Click to change the protection type!" />
 		<attribute key="absorbPercentHoly" value="5" />
         <attribute key="weight" value="6900" />
-        <attribute key="defense" value="300" />
+        <attribute key="defense" value="33" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="8906" article="a" name="Glowing shield">
+    <item id="8906" article="a" name="elemental shield">
 		<attribute key="description" value="Click to change the protection type!" />
 		<attribute key="absorbPercentFire" value="5" />
         <attribute key="weight" value="6900" />
-        <attribute key="defense" value="300" />
+        <attribute key="defense" value="33" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="8907" article="a" name="Glowing shield">
+    <item id="8907" article="a" name="elemental shield">
 		<attribute key="description" value="Click to change the protection type!" />
 		<attribute key="absorbPercentIce" value="5" />
         <attribute key="weight" value="6900" />
-        <attribute key="defense" value="300" />
+        <attribute key="defense" value="33" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="8908" article="a" name="Glowing shield">
+    <item id="8908" article="a" name="elemental shield">
 		<attribute key="description" value="Click to change the protection type!" />
 		<attribute key="absorbPercentEnergy" value="5" />
         <attribute key="weight" value="6900" />
-        <attribute key="defense" value="300" />
+        <attribute key="defense" value="33" />
         <attribute key="weaponType" value="shield" />
     </item>
-    <item id="8909" article="a" name="Glowing shield">
+    <item id="8909" article="a" name="elemental shield">
 		<attribute key="description" value="Click to change the protection type!" />
 		<attribute key="absorbPercentEarth" value="5" />
         <attribute key="weight" value="6900" />
-        <attribute key="defense" value="300" />
+        <attribute key="defense" value="33" />
         <attribute key="weaponType" value="shield" />
     </item>
     <item id="8910" article="an" name="underworld rod">
