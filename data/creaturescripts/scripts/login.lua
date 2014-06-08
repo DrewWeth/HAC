@@ -34,10 +34,6 @@ function onLogin(cid)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
 	end
 
-	if(getPlayerVocation(cid) == 0) then
-		doPlayerSetRate(cid, SKILL__LEVEL, 1)
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Honor and Chaos")
-	end
 
 	registerCreatureEvent(cid, "Mail")
 	registerCreatureEvent(cid, "GuildMotd")
