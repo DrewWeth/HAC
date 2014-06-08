@@ -34,7 +34,6 @@ function onLogin(cid)
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
 	end
 
-
 	registerCreatureEvent(cid, "Mail")
 	registerCreatureEvent(cid, "GuildMotd")
     registerCreatureEvent(cid, "rebirth")
